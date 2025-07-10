@@ -1,0 +1,35 @@
+# Mermaid Diagram Standards
+
+## Diagram Types for IT Strategy
+- **Flowcharts**: For process flows, decision trees, and workflow documentation
+- **Timeline/Gantt**: For project roadmaps and initiative timelines
+- **Entity Relationship**: For system architecture and data relationships
+- **Sequence Diagrams**: For system interactions and integration flows
+- **Mind Maps**: For brainstorming and concept organization
+
+## Formatting Standards
+- Use clear, descriptive labels for all nodes and connections
+- Maintain consistent styling within each diagram
+- Keep diagrams readable by limiting complexity per diagram
+- Use professional color schemes appropriate for business documents
+
+## Business Context Integration
+- Include business process names and terminology
+- Show clear relationships between business drivers and IT initiatives
+- Represent current state vs. future state architectures
+- Highlight critical paths and dependencies
+
+## Common IT Strategy Diagram Patterns
+```mermaid
+graph TB
+    A[Business Objective] --> B[IT Capability Required]
+    B --> C[Current State Gap]
+    C --> D[Strategic Initiative]
+    D --> E[Expected Outcome]
+```
+
+## Diagram Placement
+- Place diagrams close to related text content
+- Include descriptive captions explaining the diagram's purpose
+- Reference diagrams in the text to guide reader understanding
+- Consider diagram size for readability in final document format

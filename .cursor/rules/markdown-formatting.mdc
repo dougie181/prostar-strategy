@@ -1,0 +1,30 @@
+# Markdown Formatting Standards
+
+## Heading Structure
+- Use consistent heading hierarchy (# ## ### ####)
+- Keep headings concise and descriptive
+- Use sentence case for headings
+- Include emoji indicators where appropriate (as shown in [it strategy starter.md](mdc:it strategy starter.md))
+
+## Section Organization
+- Follow the established template structure from [it strategy starter.md](mdc:it strategy starter.md)
+- Use horizontal rules (---) to separate major sections
+- Maintain consistent spacing between sections
+
+## Content Formatting
+- Use bullet points for lists and sub-items
+- Bold (**text**) for emphasis on key terms and concepts
+- Italics (*text*) for definitions or clarifications
+- Code blocks (```) for technical specifications when needed
+
+## Business Document Standards
+- Write in professional business language
+- Use active voice where possible
+- Keep sentences clear and concise
+- Include specific metrics and measurable outcomes
+- Maintain consistent terminology throughout documents
+
+## Template Compliance
+- Preserve the question-answer-draft structure from the starter template
+- Fill in "Your Answers" sections before generating draft content
+- Keep placeholder comments until ready to replace with actual content

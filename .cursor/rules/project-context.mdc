@@ -1,0 +1,27 @@
+# IT Strategy & Tactical Planning Project Context
+
+## Project Overview
+This workspace is dedicated to developing comprehensive IT Strategy and Tactical planning documents. The primary goal is to create structured, professional strategy documents that align IT capabilities with business objectives.
+
+## Key Project Files
+- [it strategy starter.md](mdc:it strategy starter.md) - Main strategy document template with structured sections for executive summary, business drivers, current state, future state, priorities, roadmap, risk management, governance, and KPIs.
+
+## Project Scope & Approach
+- **Focus**: IT Strategy and Tactical planning documentation
+- **Work Style**: Solo project initially, with potential for future collaboration
+- **Output**: Professional strategy documents ready for executive review
+- **Polish**: Final document polishing will be done separately
+
+## AI Assistance Guidelines
+- **Context Awareness**: Always consider the IT strategy context when providing suggestions
+- **Options-Based**: When multiple approaches are available, present clear options for user selection rather than making assumptions
+- **Business Focus**: Maintain professional business language appropriate for executive audiences
+- **Technical Depth**: Include IT technical language when necessary for accuracy and completeness
+- **Structured Thinking**: Support the structured approach evident in the strategy template
+
+## Document Purpose
+These documents are intended for:
+- Executive leadership review and approval
+- IT department strategic alignment
+- Business stakeholder communication
+- Long-term planning and resource allocation
