@@ -9,7 +9,7 @@
 
 ### ✍️ Your Answers
 **Business Vision & Strategic Objectives:**
-Our organization provides aluminum and cabinet-related products to Bunnings, with 80% of products manufactured and sourced from China, shipped via 3PLs, and delivered to Bunnings stores across Australia and NZ. We also manufacture custom aluminum and cabinetry for bespoke customer requirements. Our core business challenges are optimizing systems to ensure on-time delivery of quality products while scaling to meet customer demands and growth.
+Our organisation provides aluminum and cabinet-related products to Bunnings, with 80% of products manufactured and sourced from China, shipped via 3PLs, and delivered to Bunnings stores across Australia and Ns. We also manufacture custom aluminum and cabinetry for bespoke customer requirements. Our core business challenges are optimising systems to ensure on-time delivery of quality products while scaling to meet customer demands and growth.
 
 **Key Business Strategic Objectives (3-5 years):**
 1. Develop a cost-effective software delivery process for both customer and internal client tools
@@ -19,7 +19,7 @@ Our organization provides aluminum and cabinet-related products to Bunnings, wit
 5. Provide mechanisms for better reporting, target setting, and trend management (operational and tactical)
 
 **IT's Strategic Role:**
-IT will function as both a strategic enabler and business partner (not a cost center), investing in technology that provides competitive advantages while actively driving measurable business outcomes. This hybrid positioning supports our need to scale operations, optimize delivery performance, and handle complex manufacturing/supply chain operations.
+IT will function as both a strategic enabler and business partner (not a cost center), investing in technology that provides competitive advantages while actively driving measurable business outcomes. This hybrid positioning supports our need to scale operations, optimise delivery performance, and handle complex manufacturing/supply chain operations.
 
 **Primary Audience:**
 Executive leadership team who will approve and fund this strategic plan.
@@ -37,13 +37,13 @@ Executive leadership team who will approve and fund this strategic plan.
 ### ✍️ Your Answers
 **Main Business Drivers:**
 - **Customer Experience:** Maintaining and improving delivery performance to Bunnings (on-time, quality products)
-- **Operational Efficiency:** Optimizing complex international supply chain (China sourcing → 3PL → Bunnings stores)
+- **Operational Efficiency:** Optimising complex international supply chain (China sourcing → 3PL → Bunnings stores)
 - **Growth & Scalability:** Building systems capable of scaling to meet increasing customer demands
 - **Operational Excellence:** Streamlining manufacturing processes for both standard products and custom orders
 
 **Specific Business Objectives IT Must Support:**
 - **Supply Chain Visibility:** Complete tracking from China-sourced products through 3PL delivery to final Bunnings stores
-- **Manufacturing Optimization:** Better visibility and control of manufacturing performance metrics and processes
+- **Manufacturing Optimisation:** Better visibility and control of manufacturing performance metrics and processes
 - **Custom Order Management:** Seamless handling of bespoke items (raked aluminum panels, sliding doors, glass panels)
 - **Inventory Intelligence:** Effective management of Ready-to-Assemble parent/child relationships for accurate picking and delivery
 - **Purchasing Efficiency:** Streamlined purchasing processes eliminating manual workarounds across multiple systems
@@ -101,19 +101,19 @@ Executive leadership team who will approve and fund this strategic plan.
 ### 💬 Clarifying Questions
 - What is your ideal future state for IT in 3-5 years?
 - Are there specific technologies or capabilities to adopt (cloud-first, AI analytics, etc.)?
-- How do you envision IT's operating model evolving (centralized, federated, hybrid)?
+- How do you envision IT's operating model evolving (centralised, federated, hybrid)?
 
 ### ✍️ Your Answers
 **Ideal Future State (3-5 years):**
-- **Optimized ERP Foundation:** Acumatica fully configured and performing effectively with proper governance for prioritization and change management
-- **Strategic IT Capabilities:** In-house software development capability with external partnerships for specialized needs
+- **Optimised ERP Foundation:** Acumatica fully configured and performing effectively with proper governance for prioritisation and change management
+- **Strategic IT Capabilities:** In-house software development capability with external partnerships for specialised needs
 - **Advanced Analytics:** Data warehouse with time series data enabling real-time dashboards on TV screens and simplified management reporting with trend analysis and business ratios
-- **Integrated Operations:** Seamless integration between Acumatica and best-of-breed solutions for production scheduling, manufacturing materials purchasing, and other specialized functions
+- **Integrated Operations:** Seamless integration between Acumatica and best-of-breed solutions for production scheduling, manufacturing materials purchasing, and other specialised functions
 - **Reliable EDI:** Either improved TOE solution or alternative EDI platform ensuring reliable Bunnings connectivity
 - **Professional IT Delivery:** Dedicated BA/PM capabilities ensuring effective project outcomes and business value delivery
 
 **Key Technologies & Capabilities to Adopt:**
-- **Data Warehouse & Analytics:** Centralized data repository with time series capabilities for operational dashboards and management reporting
+- **Data Warehouse & Analytics:** Centralised data repository with time series capabilities for operational dashboards and management reporting
 - **Production Scheduling Solution:** Best-of-breed scheduling system integrated with Acumatica
 - **Manufacturing Materials Purchasing:** System to handle manufacturing materials (complementing Netstock's finished goods focus)
 - **Development Platform:** Internal capability for custom integrations and business applications
@@ -121,7 +121,7 @@ Executive leadership team who will approve and fund this strategic plan.
 
 **IT Operating Model Evolution:**
 - **Core Team:** Maintain lean internal team for Level 1 support and strategic oversight
-- **Hybrid Partnerships:** Level 2 support and customizations through Acumatica partners, development projects through strategic technology partners
+- **Hybrid Partnerships:** Level 2 support and customisations through Acumatica partners, development projects through strategic technology partners
 - **Governance-Driven:** Monthly governance group meetings to confirm priorities and manage change
 - **Business-Partnered:** IT actively participating in business planning and driving measurable outcomes
 
@@ -137,7 +137,7 @@ Executive leadership team who will approve and fund this strategic plan.
 
 ### ✍️ Your Answers
 **Short Term Priorities (Next 12 months) - Foundation Setting:**
-1. **Acumatica Optimization** *(Highest Priority)*
+1. **Acumatica Optimisation** *(Highest Priority)*
    - Fix Custom Special Order tracking issues
    - Resolve Ready-to-Assemble parent/child relationship problems
    - Improve manufacturing performance metrics and reporting
@@ -156,11 +156,11 @@ Executive leadership team who will approve and fund this strategic plan.
 **Medium-Term Priorities (Years 2-3) - Capability Building:**
 1. **Software Development Capability** *(Nearly Equal Priority)*
    - Build internal development team
-   - Establish development partnerships for specialized needs
+   - Establish development partnerships for specialised needs
    - Create custom integration and application development capability
 
 2. **Data Warehouse & Analytics Platform** *(Nearly Equal Priority)*
-   - Implement centralized data repository with time series capabilities
+   - Implement centralised data repository with time series capabilities
    - Deploy real-time operational dashboards
    - Create advanced management reporting with trend analysis
 
@@ -169,7 +169,7 @@ Executive leadership team who will approve and fund this strategic plan.
    - Manufacturing materials purchasing system (to complement Netstock)
    - Integration platform for seamless data flow
 
-**Long-Term Priorities (Years 3-5) - Optimization & Innovation:**
+**Long-Term Priorities (Years 3-5) - Optimisation & Innovation:**
 1. **EDI Platform Evolution**
    - Evaluate TOE replacement options vs. improvements
    - Implement alternative EDI solution if required
@@ -181,7 +181,7 @@ Executive leadership team who will approve and fund this strategic plan.
    - Predictive analytics and business intelligence
 
 **Business Value Delivery Focus:**
-- Primary value driver: Acumatica optimization (enables all other initiatives)
+- Primary value driver: Acumatica optimisation (enables all other initiatives)
 - Equal secondary drivers: Development capability + Data analytics (multiplier effect)
 - All priorities focused on scalability, operational efficiency, and customer satisfaction
 
@@ -198,9 +198,9 @@ Executive leadership team who will approve and fund this strategic plan.
 ### ✍️ Your Answers
 **Major Initiatives to Close Gap:**
 
-**Initiative 1: Acumatica Foundation Stabilization (Months 1-12)**
+**Initiative 1: Acumatica Foundation Stabilisation (Months 1-12)**
 - Establish Acumatica governance committee and priority framework
-- Engage Acumatica partner for Level 2 support and configuration optimization
+- Engage Acumatica partner for Level 2 support and configuration optimisation
 - Fix critical order tracking issues (Custom Orders, Ready-to-Assemble products)
 - Improve manufacturing reporting and performance metrics
 - Streamline purchasing workflows and reduce manual processes
@@ -218,13 +218,13 @@ Executive leadership team who will approve and fund this strategic plan.
 - Develop real-time operational dashboards
 - Create management reporting with trend analysis capabilities
 - Integrate multiple data sources (Acumatica, TOE, Netstock, etc.)
-- Dependencies: Acumatica stabilization, development capability, data strategy definition
+- Dependencies: Acumatica stabilisation, development capability, data strategy definition
 
 **Initiative 4: Best-of-Breed Integration Program (Months 18-36)**
 - Production scheduling solution selection and implementation
 - Manufacturing materials purchasing system evaluation and deployment
 - Integration platform implementation for seamless data flow
-- Process automation and workflow optimization
+- Process automation and workflow optimisation
 - Dependencies: Development capability, data platform, business requirements definition
 
 **Initiative 5: EDI Platform Enhancement (Months 30-48)**
@@ -262,11 +262,11 @@ Executive leadership team who will approve and fund this strategic plan.
 **Most Critical Risks to Strategy Delivery:**
 
 **Risk 1: Acumatica Investment Protection (HIGH)**
-- *Risk:* Failure to optimize Acumatica could result in sunk costs and business disruption after 2-year investment
+- *Risk:* Failure to optimise Acumatica could result in sunk costs and business disruption after 2-year investment
 - *Impact:* Loss of ERP foundation, significant re-implementation costs, operational disruption
 - *Mitigation:* 
   - Establish clear governance and priority framework for Acumatica improvements
-  - Engage specialized Acumatica partner for Level 2 support and configuration optimization
+  - Engage specialised Acumatica partner for Level 2 support and configuration optimisation
   - Phase improvements with quick wins to build confidence and momentum
   - Regular milestone reviews with clear success criteria
 
@@ -294,7 +294,7 @@ Executive leadership team who will approve and fund this strategic plan.
 - *Mitigation:*
   - Strong governance framework with monthly priority reviews
   - Clear success criteria and milestone-based approvals
-  - Focus on Acumatica optimization before expanding scope
+  - Focus on Acumatica optimisation before expanding scope
   - Regular ROI validation for new initiatives
 
 **Risk 5: Integration Complexity (MEDIUM)**
@@ -343,7 +343,7 @@ Executive leadership team who will approve and fund this strategic plan.
 **Progress Measurement KPIs:**
 
 **Strategic Success Metrics:**
-- **Acumatica Optimization:** Custom Order tracking accuracy (target: >98%), Ready-to-Assemble processing time reduction (target: 50%), Manufacturing metrics availability (target: 100%)
+- **Acumatica Optimisation:** Custom Order tracking accuracy (target: >98%), Ready-to-Assemble processing time reduction (target: 50%), Manufacturing metrics availability (target: 100%)
 - **Capability Building:** BA/PM resource in place and productive (target: Month 6), Development capability operational (target: Month 18)
 - **Data & Analytics:** Real-time dashboard deployment (target: Month 24), Management reporting automation (target: 75% reduction in manual reporting)
 
@@ -380,7 +380,7 @@ Executive leadership team who will approve and fund this strategic plan.
 - Continued growth and partnership with Bunnings as primary customer
 - Existing Acumatica investment will be protected rather than replaced
 - Business appetite for ROI-driven IT investments with clear business cases
-- 150-person organization size and complexity levels remain relatively stable
+- 150-person organisation size and complexity levels remain relatively stable
 - China sourcing and 3PL distribution model continues as primary operational approach
 
 **Technology Assumptions:**
@@ -398,7 +398,7 @@ Executive leadership team who will approve and fund this strategic plan.
 - Dedicated governance time commitment from business stakeholders
 
 **Timeline Assumptions:**
-- 12-month timeframe for Acumatica stabilization is achievable with proper focus
+- 12-month timeframe for Acumatica stabilisation is achievable with proper focus
 - 18-month timeline for building internal development capability is realistic
 - Business processes can accommodate phased implementations without major disruption
 - External partner availability and capability as required
