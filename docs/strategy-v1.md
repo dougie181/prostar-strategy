@@ -16,25 +16,42 @@
 
 ### Strategic Positioning & Business Context
 
-**Our Business:** Aluminium and cabinet products supplier to Bunnings (150 employees, 80% China-sourced products, custom manufacturing capability)
+**Our Business:** Aluminium, Glass and Cabinet products supplier to Bunnings (Retail + Trade) and Bunnings Commercial (150 employees, 80% China-sourced products, custom manufacturing capability). 
+
+Offices located in 
+ - Corbould park
+ - Brendale
+ - Derrimut (soon to be Truganina)
+Business brands are:
+- Protector Aluminium and Glass
+- Protector Trade
+- Prostar Joinery
+- Prostar Trade
+- ABRA
+- Wintec
+- Safetech
+
+Markets:
+- Australia
+- New Zealand
 
 **IT Strategic Role:** Strategic enabler and business partner driving measurable business outcomes, competitive advantage, and scalability support
 
-**Core Challenge:** Optimise complex international supply chain (China → 3PL → Bunnings stores) while scaling to meet growth demands
+**Core Challenge:** Support systems as we scale, optimise processes, improve customer experience and provide relevant timely data for business decisions
 
 ### Current State Highlights
 
 **Strengths:**
-- 2-year Acumatica ERP investment across all core functions
-- Solid operational IT support through strategic partner
-- Automated EDI connection with Bunnings via TOE
+- Solid operational IT support through strategic partner (SixT4) - responsive to support requests, ensures 'lights on' operational status
+- Established ERP foundation with Acumatica (though implementation challenges remain)
 
 **Critical Issues Requiring Investment:**
 1. **Late Invoice Processing Fees** - ~$17,000/year in penalties (primarily NZ operations)
 2. **Ready-to-Assemble Product Issues** - Parent/child relationship problems affecting 3PL operations
-3. **Manufacturing Reporting Gaps** - Limited visibility into performance metrics
-4. **Purchasing Inefficiencies** - Manual processes across 3 systems (Netstock, Acumatica, Excel)
-5. **Missing Strategic Capabilities** - No development capability, limited BA/PM skills, weak IT governance
+
+**Desirable Improvements:**
+- **Business & Process Reporting Gaps** - Limited visibility into performance metrics (addressed through data warehouse experimental initiative)
+- **Missing Strategic Capabilities** - No development capability, limited BA/PM skills, weak IT governance (addressed through Phase 0 assessment and aspirational initiatives)
 
 ### Strategy Structure
 
@@ -55,8 +72,8 @@ This strategy document is structured to clearly distinguish between:
 
 **Year 1: Foundation Setting**
 - Committed initiatives (production scheduler, WMS, planners, ABRA setup, Missing Invoice fix)
-- Acumatica optimisation projects (requiring business case approval)
 - Data warehouse MVP (experimental/R&D)
+- Ongoing Acumatica support (2 support staff, occasional small customisations)
 
 **Years 2-3: Capability Building** *(Requires Business Cases)*
 - Strategic capability building initiatives
@@ -107,7 +124,7 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 ### Main Business Drivers
 
 - **Customer Experience:** Maintaining and improving delivery performance to Bunnings (on-time, quality products)
-- **Operational Efficiency:** Optimising complex international supply chain (China sourcing → 3PL → Bunnings stores)
+- **Operational Efficiency:** Optimising processes and systems to support scaling and growth
 - **Growth & Scalability:** Building systems capable of scaling to meet increasing customer demands
 - **Operational Excellence:** Streamlining manufacturing processes for both standard products and custom orders
 
@@ -117,7 +134,6 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 - **Manufacturing Optimisation:** Better visibility and control of manufacturing performance metrics and processes
 - **Custom Order Management:** Seamless handling of bespoke items (raked aluminium panels, sliding doors, glass panels)
 - **Inventory Intelligence:** Effective management of Ready-to-Assemble parent/child relationships for accurate picking and delivery
-- **Purchasing Efficiency:** Streamlined purchasing processes eliminating manual workarounds across multiple systems
 - **Data-Driven Decision Making:** Real-time dashboards and trend analysis for operational and tactical management
 
 ---
@@ -130,8 +146,8 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 - Acumatica implemented 2 years ago covering Sales, Manufacturing, Inventory, Warehouse Management, and Finance
 
 **Team Structure:**
-- Group ICT Manager + 2 Operational Support people for ERP
-- Strategic IT Support Partner managing O365, PC Setup, Network, and Security (includes onsite person at HQ + 1 day/week at remote office)
+- Group ICT Manager + 2 Operational Support people for Acumatica (ongoing support, occasional small customisations)
+- Strategic IT Support Partner (SixT4) managing O365, PC Setup, Network, and Security (includes onsite person at HQ + 1 day/week at remote office)
 
 **Support Systems:**
 - FreshService for Acumatica support and problem management
@@ -151,19 +167,23 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 
 ### Current Strengths
 
-- Solid operational IT support through partner arrangement
-- Established ERP foundation with Acumatica
-- Automated EDI connection with key customer (Bunnings)
-- Good coverage of core business functions (Finance, HR, Communication)
+- **Solid Operational IT Support:** Strategic IT partner (SixT4) provides responsive support, ensures 'lights on' operational status, manages O365, PC setup, network, and security effectively
+- **Established ERP Foundation:** Acumatica implemented across core functions (Sales, Manufacturing, Inventory, Warehouse Management, Finance) - provides foundation for optimisation despite implementation challenges
+- **Good Coverage of Core Business Functions:** Finance, HR, Communication systems operational
+
+**Note:** Areas requiring improvement:
+- Business Continuity Planning (BCP) and Disaster Recovery (DR) plans need documentation and testing
+- EDI integration (TOE) has reliability and integration issues affecting operations
+- Acumatica user adoption and customisation challenges indicate implementation improvement opportunities
 
 ### Current Weaknesses & Limitations
 
-- **Acumatica Issues:** Configuration problems, poor reporting for manufacturing metrics, disjointed processes
+- **Acumatica Issues:** Configuration problems, poor reporting for manufacturing metrics, disjointed processes, user adoption challenges (system difficult to use and customise), implementation was not perfect
 - **Order Tracking Gaps:** Custom Special Orders and Ready-to-Assemble parent/child relationships not properly tracked (especially NZ operations)
 - **Late Invoice Processing:** ~$17,000/year in late invoice penalties (primarily NZ, 888 invoices), plus manual processing costs
-- **Purchasing Inefficiencies:** Manual processes across 3 systems (Netstock limitations for manufacturing materials)
-- **EDI Reliability:** TOE has regular outages and subpar support
+- **EDI Reliability:** TOE has regular outages and subpar support, contributing to missing invoices and integration issues - NOT a strength
 - **Missing Capabilities:** No software development capability, no dedicated BA/PM resources, no production scheduling system, no formal IT governance framework
+- **BCP/DR Gaps:** Business Continuity Planning (BCP) and Disaster Recovery (DR) plans need documentation and testing
 
 ### Major Risks, Technical Debts & Skill Gaps
 
@@ -178,7 +198,7 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 
 **Quantified Issues:**
 - **Late Invoice Penalties:** ~$17,000/year (888 NZ invoices × $11 fee, plus ~148 hours/year manual processing)
-- **Operational Costs:** Manual workarounds for EDI failures, purchasing inefficiencies, reporting gaps
+- **Operational Costs:** Manual workarounds for EDI failures, reporting gaps
 - **Relationship Risk:** Small impact on Bunnings relationship from invoice issues (not currently disruptive to contracts)
 
 **Note:** Phase 0 assessment work will provide comprehensive quantification of all current state gaps, risks, and business impacts.
@@ -395,45 +415,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 
 **These initiatives require business case development and executive approval before proceeding.**
 
-#### 1. Acumatica Optimisation Projects
-
-**Business Problem:** Multiple Acumatica configuration issues affecting operations, including:
-- Custom Special Order tracking issues
-- Ready-to-Assemble parent/child relationship problems (beyond Missing Invoice project)
-- Manufacturing reporting gaps
-- Purchasing workflow inefficiencies
-
-**Business Value:** Resolve Acumatica issues, improve operational efficiency, protect 2-year Acumatica investment.
-
-**Status:** Requires business case approval for each project
-**Investment:** Project-based, each requiring individual business case (typically >$3k threshold for formal approval)
-**Approach:** Each Acumatica optimisation project requires its own business case with:
-- Clear problem statement and business impact
-- Proposed solution and approach
-- Cost estimate and resource requirements
-- ROI analysis and success criteria
-- Risk assessment
-
-**Priority Projects:**
-- **Missing Invoice Project:** Already committed (see above)
-- **Custom Special Order Tracking:** Business case required
-- **Manufacturing Reporting Improvements:** Business case required
-- **Purchasing Workflow Optimisation:** Business case required
-- **Other optimisation projects:** As identified through Phase 0 assessment
-
-**Success Criteria:** 
-- Custom Order tracking accuracy >98%
-- Manufacturing metrics availability 100%
-- Purchasing workflow time reduction 40%
-
-**Next Steps:**
-- Complete Phase 0 assessment work
-- Prioritise Acumatica issues based on business impact
-- Develop business cases for priority projects
-- Executive approval and resource allocation
-- Project execution
-
-#### 2. Data Warehouse & Analytics Platform (Full Implementation)
+#### 1. Data Warehouse & Analytics Platform (Full Implementation)
 
 **Business Problem:** Limited data visibility and reporting capabilities. Manual reporting processes. Lack of real-time operational insights for decision-making.
 
@@ -470,7 +452,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - Executive approval and resource allocation (if approved)
 - Full implementation
 
-#### 3. Integration Architecture Strategy
+#### 2. Integration Architecture Strategy
 
 **Business Problem:** Point-to-point integrations with limited standardisation. Integration complexity growing as we add systems.
 
@@ -612,9 +594,9 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - *Impact:* Loss of ERP foundation, significant re-implementation costs, operational disruption
 - *Mitigation:*
   - Phase 0 assessment to understand current state
-  - Each Acumatica optimisation project requires business case
-  - Engage specialised Acumatica partner for Level 2 support (if required)
-  - Phased improvements with quick wins
+  - Ongoing Acumatica support through 2 support staff
+  - Occasional small customisations as needed
+  - Engage specialised Acumatica partner for Level 2 support (if required for specific issues)
 
 **Risk 2: TOE EDI Dependency (MEDIUM)**
 - *Risk:* Continued outages and poor support from TOE disrupting Bunnings operations
@@ -697,7 +679,6 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - Planners: 5 planners deployed and operational in 2025
 
 **Initiatives Requiring Approval:**
-- Acumatica Optimisation: Custom Order tracking accuracy >98%, Manufacturing metrics availability 100%
 - Data Warehouse: (To be defined based on MVP learnings)
 
 **Aspirational Initiatives:**
@@ -755,7 +736,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 
 1. **Phase 0 Execution:** Execute Phase 0 assessment work
 2. **Committed Initiatives:** Continue execution of committed initiatives
-3. **Business Case Development:** Begin developing business cases for priority Acumatica optimisation projects
+3. **Ongoing Support:** Continue Acumatica support activities (2 support staff, occasional small customisations)
 4. **Data Warehouse MVP:** Complete MVP development (target: End of February 2025)
 5. **Governance Framework:** Implement monthly operational governance meetings
 
@@ -770,12 +751,12 @@ Before proceeding with major strategic initiatives, foundational assessment work
 **Year 1:**
 - Phase 0 assessment work completed
 - Committed initiatives progressing (scheduler, WMS, planners, ABRA, Missing Invoice)
-- Business cases developed for priority Acumatica optimisation projects
+- Ongoing Acumatica support continuing effectively
 - Data warehouse MVP demonstrated (if successful)
 - Governance framework operational
 
 **Years 2-3:**
-- Priority Acumatica optimisation projects completed (subject to approval)
+- Ongoing Acumatica support continuing effectively
 - Data warehouse full implementation (if MVP successful and approved)
 - Integration architecture established (if approved)
 - Best-of-breed integrations operational (if approved)
