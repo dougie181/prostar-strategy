@@ -1,3 +1,7 @@
+---
+alwaysApply: true
+---
+
 # Business Communication Standards
 
 ## Language & Tone
@@ -5,6 +9,7 @@
 - Avoid overly technical jargon unless necessary for accuracy
 - Write for multiple audiences: executives, business stakeholders, and IT professionals
 - Maintain objective, fact-based tone throughout documents
+- Should also be Australian English
 
 ## Technical Communication
 - When IT technical language is necessary, provide context for business readers
