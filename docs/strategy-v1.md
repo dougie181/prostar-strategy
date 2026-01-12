@@ -2,10 +2,13 @@
 
 **Document Purpose:** Comprehensive IT Strategy defining strategic direction, priorities, and implementation roadmap for the next 3-5 years
 
+**Version:** 1.0  
 **Date Created:** January 2025  
 **Document Owner:** Group ICT Manager  
 **Review Frequency:** Quarterly (aligned with IT Strategy Governance Committee)  
 **Classification:** Internal - Business Sensitive
+
+**Note:** This is a working document and first version. It will evolve as Phase 0 assessment work is completed and business cases are developed for individual initiatives.
 
 ---
 
@@ -27,63 +30,61 @@
 - Automated EDI connection with Bunnings via TOE
 
 **Critical Issues Requiring Investment:**
-1. **Custom Order Tracking Failures** - Impacting customer delivery performance
+1. **Late Invoice Processing Fees** - ~$17,000/year in penalties (primarily NZ operations)
 2. **Ready-to-Assemble Product Issues** - Parent/child relationship problems affecting 3PL operations
 3. **Manufacturing Reporting Gaps** - Limited visibility into performance metrics
 4. **Purchasing Inefficiencies** - Manual processes across 3 systems (Netstock, Acumatica, Excel)
 5. **Missing Strategic Capabilities** - No development capability, limited BA/PM skills, weak IT governance
 
-### 3-Year Strategic Vision
+### Strategy Structure
 
-**Year 1 Foundation:** Stabilised Acumatica with resolved core issues, established governance, BA/PM capability in place
+This strategy document is structured to clearly distinguish between:
 
-**Year 2-3 Capability Building:** Internal development team, data warehouse with real-time dashboards, best-of-breed integrations (production scheduling, manufacturing materials purchasing)
+- **Phase 0: Foundation Assessment Work** - Foundational assessment activities to understand current state, gaps, and risks
+- **Committed Initiatives** - Initiatives already approved or committed to proceed
+- **Initiatives Requiring Approval** - Projects requiring business cases and executive approval
+- **Experimental/R&D Initiatives** - Initiatives to prove value before full investment
+- **Aspirational Initiatives** - Long-term vision items for future consideration
 
-**Long-term Optimisation:** Enhanced EDI reliability, advanced automation, predictive analytics
+### Key Strategic Priorities
 
-### Investment Priorities & Timeline
+**Immediate Priority: Phase 0 Assessment Work**
+- IT assessment and gap analysis (COBIT framework)
+- Capability maturity matrix development
+- Risk register development for executive presentation
 
-**Immediate Priority (12 months): Acumatica Optimisation**
-- **Investment:** Acumatica partner engagement + governance framework + BA/PM resource
-- **Business Impact:** Resolve order tracking issues, improve manufacturing visibility, streamline purchasing
-- **Success Metrics:** >98% custom order tracking accuracy, 50% reduction in processing time, 100% manufacturing metrics availability
+**Year 1: Foundation Setting**
+- Committed initiatives (production scheduler, WMS, planners, ABRA setup, Missing Invoice fix)
+- Acumatica optimisation projects (requiring business case approval)
+- Data warehouse MVP (experimental/R&D)
 
-**Medium-term (Years 2-3): Strategic Capability Building**
-- **Investment:** Internal development team + data warehouse/analytics platform + best-of-breed integrations
-- **Business Impact:** Custom applications, real-time operational dashboards, automated reporting, production scheduling
-- **Success Metrics:** 75% reduction in manual reporting, real-time visibility across supply chain
+**Years 2-3: Capability Building** *(Requires Business Cases)*
+- Strategic capability building initiatives
+- Best-of-breed integrations
+- Enhanced analytics and reporting
 
-**Long-term (Years 3-5): Advanced Automation**
-- **Investment:** EDI platform enhancement + process automation + predictive analytics
-- **Business Impact:** Reduced operational costs, improved customer service, competitive advantage through data insights
+**Long-term (Years 3-5): Optimisation & Innovation** *(Aspirational)*
+- Advanced automation
+- Predictive analytics
+- Internal development capability (aspirational)
 
 ### Resource Strategy & ROI Approach
 
 **Resource Philosophy:** Build internal capability (knowledge retention) with strategic external partnerships (specialised expertise)
 
-**Budget Approach:** ROI-driven investments with positive business cases required for all initiatives
+**Budget Approach:** Ad-hoc, project-based approvals with ROI-driven investments requiring positive business cases for significant initiatives
 
 **Risk Management:** Conservative approach protecting Acumatica investment, phased implementation reducing business disruption
-
-### Key Risks & Mitigation
-
-**Primary Risk:** Acumatica investment failure - *Mitigated by specialised partner engagement and governance framework*
-
-**Capability Risk:** Unable to build internal development/BA capabilities - *Mitigated by dual recruitment/training strategy with external backup*
-
-**Integration Risk:** Underestimated complexity - *Mitigated by phased approach and experienced partners*
 
 ### Executive Decision Required
 
 **Approval Requested:**
 1. Strategic direction as outlined (IT as strategic enabler + business partner)
-2. Acumatica optimisation as immediate priority with dedicated resources
-3. Authority to establish governance framework and begin partner selection
+2. Phase 0 assessment work prioritisation and resourcing
+3. Authority to develop business cases for initiatives requiring approval
 4. Commitment to ROI-based budget approvals for subsequent initiatives
 
-**Next 30 Days:** Executive approval → Governance committee formation → Acumatica partner selection → BA/PM resource planning
-
-**Expected Timeline:** 12 months to stable foundation, 36 months to full capability realisation
+**Next 30 Days:** Executive approval → Phase 0 assessment work initiation → Governance committee formation
 
 ---
 
@@ -118,13 +119,6 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 - **Inventory Intelligence:** Effective management of Ready-to-Assemble parent/child relationships for accurate picking and delivery
 - **Purchasing Efficiency:** Streamlined purchasing processes eliminating manual workarounds across multiple systems
 - **Data-Driven Decision Making:** Real-time dashboards and trend analysis for operational and tactical management
-
-### Operational Changes Expected
-
-- Continued growth in Bunnings business requiring scalable systems
-- Increasing complexity in custom manufacturing requirements
-- Need for more automated and integrated business processes
-- Enhanced reporting and analytics capabilities for performance management
 
 ---
 
@@ -165,10 +159,11 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 ### Current Weaknesses & Limitations
 
 - **Acumatica Issues:** Configuration problems, poor reporting for manufacturing metrics, disjointed processes
-- **Order Tracking Gaps:** Custom Special Orders and Ready-to-Assemble parent/child relationships not properly tracked
+- **Order Tracking Gaps:** Custom Special Orders and Ready-to-Assemble parent/child relationships not properly tracked (especially NZ operations)
+- **Late Invoice Processing:** ~$17,000/year in late invoice penalties (primarily NZ, 888 invoices), plus manual processing costs
 - **Purchasing Inefficiencies:** Manual processes across 3 systems (Netstock limitations for manufacturing materials)
 - **EDI Reliability:** TOE has regular outages and subpar support
-- **Missing Capabilities:** No software development capability, no dedicated BA/PM resources, no production scheduling system
+- **Missing Capabilities:** No software development capability, no dedicated BA/PM resources, no production scheduling system, no formal IT governance framework
 
 ### Major Risks, Technical Debts & Skill Gaps
 
@@ -177,6 +172,16 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 - **Capability Gaps:** No internal development capability, limited BA/PM skills, no formal IT governance framework
 - **Technical Debt:** Acumatica configuration issues requiring significant rework
 - **Process Risk:** Manual workarounds creating potential for errors and inefficiencies
+- **Risk Management Gap:** No formal IT risk register or assessment framework
+
+### Current Business Impact
+
+**Quantified Issues:**
+- **Late Invoice Penalties:** ~$17,000/year (888 NZ invoices × $11 fee, plus ~148 hours/year manual processing)
+- **Operational Costs:** Manual workarounds for EDI failures, purchasing inefficiencies, reporting gaps
+- **Relationship Risk:** Small impact on Bunnings relationship from invoice issues (not currently disruptive to contracts)
+
+**Note:** Phase 0 assessment work will provide comprehensive quantification of all current state gaps, risks, and business impacts.
 
 ---
 
@@ -185,19 +190,21 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 ### Ideal Future State (3-5 years)
 
 - **Optimised ERP Foundation:** Acumatica fully configured and performing effectively with proper governance for prioritisation and change management
-- **Strategic IT Capabilities:** In-house software development capability with external partnerships for specialised needs
-- **Advanced Analytics:** Data warehouse with time series data enabling real-time dashboards on TV screens and simplified management reporting with trend analysis and business ratios
+- **Strategic IT Capabilities:** In-house software development capability with external partnerships for specialised needs (aspirational)
+- **Advanced Analytics:** Data warehouse with time series data enabling real-time dashboards and simplified management reporting with trend analysis (subject to proof of value)
 - **Integrated Operations:** Seamless integration between Acumatica and best-of-breed solutions for production scheduling, manufacturing materials purchasing, and other specialised functions
 - **Reliable EDI:** Either improved TOE solution or alternative EDI platform ensuring reliable Bunnings connectivity
 - **Professional IT Delivery:** Dedicated BA/PM capabilities ensuring effective project outcomes and business value delivery
+- **Risk Management:** Formal IT risk register and assessment framework supporting executive decision-making
 
 ### Key Technologies & Capabilities to Adopt
 
-- **Data Warehouse & Analytics:** Centralised data repository with time series capabilities for operational dashboards and management reporting
-- **Production Scheduling Solution:** Best-of-breed scheduling system integrated with Acumatica
-- **Manufacturing Materials Purchasing:** System to handle manufacturing materials (complementing Netstock's finished goods focus)
-- **Development Platform:** Internal capability for custom integrations and business applications
-- **Business Intelligence:** Advanced reporting and analytics beyond standard Acumatica capabilities
+- **Production Scheduling Solution:** Best-of-breed scheduling system integrated with Acumatica (committed)
+- **Warehouse Management System:** WMS for warehouse operations (committed)
+- **Data Warehouse & Analytics:** Centralised data repository with time series capabilities for operational dashboards and management reporting (experimental, then subject to approval)
+- **Manufacturing Materials Purchasing:** System to handle manufacturing materials (complementing Netstock's finished goods focus) - subject to business case
+- **Development Platform:** Internal capability for custom integrations and business applications (aspirational)
+- **Business Intelligence:** Advanced reporting and analytics beyond standard Acumatica capabilities (subject to proof of value)
 
 ### IT Operating Model Evolution
 
@@ -208,158 +215,438 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 
 ---
 
-## Strategic Priorities & Roadmap
+## Phase 0: Foundation Assessment Work
 
-### Short-Term Priorities (Next 12 months) - Foundation Setting
+### Purpose
 
-**1. Acumatica Optimisation** *(Highest Priority)*
-- Fix Custom Special Order tracking issues
-- Resolve Ready-to-Assemble parent/child relationship problems
-- Improve manufacturing performance metrics and reporting
-- Address purchasing workflow inefficiencies
-- Implement proper change governance processes
+Before proceeding with major strategic initiatives, foundational assessment work is required to:
+- Understand current state vs. where we should be
+- Identify gaps and prioritise initiatives
+- Develop comprehensive risk register for executive decision-making
+- Establish baseline for measuring progress
 
-**2. IT Governance Framework Implementation**
-- Establish monthly governance group for priority setting and change management
-- Implement structured decision-making processes
-- Create IT service catalog and SLA framework
+### Assessment Activities
 
-**3. BA/Project Management Capability Building**
-- Hire dedicated BA/PM resource OR train existing ERP support person with backfill
-- Establish project delivery methodology and standards
+**1. IT Assessment**
+- Comprehensive current state analysis
+- System inventory and documentation
+- Process documentation and gap identification
+- Resource and capability assessment
 
-### Medium-Term Priorities (Years 2-3) - Capability Building
+**2. COBIT Gap Analysis**
+- Assessment against COBIT 4 framework
+- Identification of gaps in IT governance, management, and operations
+- Prioritisation of gaps based on business impact
+- Roadmap for addressing gaps
 
-**1. Software Development Capability** *(Nearly Equal Priority)*
-- Build internal development team
-- Establish development partnerships for specialised needs
-- Create custom integration and application development capability
+**3. Capability Maturity Matrix**
+- Assessment of current IT capability maturity levels
+- Identification of target maturity levels
+- Gap analysis and improvement roadmap
+- Measurement framework for maturity progression
 
-**2. Data Warehouse & Analytics Platform** *(Nearly Equal Priority)*
-- Implement centralised data repository with time series capabilities
-- Deploy real-time operational dashboards
-- Create advanced management reporting with trend analysis
+**4. Risk Register Development**
+- Comprehensive IT risk identification and assessment
+- Risk prioritisation based on impact and likelihood
+- Risk mitigation strategies and plans
+- Executive-level risk register for presentation and decision-making
 
-**3. Best-of-Breed Integrations**
-- Production scheduling solution selection and implementation
-- Manufacturing materials purchasing system (to complement Netstock)
-- Integration platform for seamless data flow
+### Expected Outcomes
 
-### Long-Term Priorities (Years 3-5) - Optimisation & Innovation
+- Clear understanding of current state vs. target state
+- Prioritised list of initiatives based on gap analysis
+- Comprehensive risk register for executive review
+- Baseline metrics for measuring progress
+- Foundation for developing business cases for initiatives
 
-**1. EDI Platform Evolution**
-- Evaluate TOE replacement options vs. improvements
-- Implement alternative EDI solution if required
-- Enhance Bunnings integration reliability
+### Timeline
 
-**2. Advanced Automation**
-- Automated business process workflows
-- Enhanced integration capabilities
-- Predictive analytics and business intelligence
+- **Target Completion:** Q2 2025 (3-4 months)
+- **Resource Requirements:** Internal IT team + external assessment support (if required)
+- **Deliverables:** IT Assessment Report, COBIT Gap Analysis, Capability Maturity Matrix, Risk Register
 
-### Business Value Delivery Focus
+**Note:** This assessment work should inform and refine the strategy document. The strategy will evolve as assessment findings are incorporated.
 
-- Primary value driver: Acumatica optimisation (enables all other initiatives)
-- Equal secondary drivers: Development capability + Data analytics (multiplier effect)
-- All priorities focused on scalability, operational efficiency, and customer satisfaction
+---
 
-### Major Initiatives & Roadmap
+## Strategic Initiatives by Category
 
-**Initiative 1: Acumatica Foundation Stabilisation (Months 1-12)**
-- Establish Acumatica governance committee and priority framework
-- Engage Acumatica partner for Level 2 support and configuration optimisation
-- Fix critical order tracking issues (Custom Orders, Ready-to-Assemble products)
-- Improve manufacturing reporting and performance metrics
-- Streamline purchasing workflows and reduce manual processes
-- Dependencies: Governance framework, partner selection, business process documentation
+### Committed Initiatives
 
-**Initiative 2: IT Capability Development (Months 6-18)**
-- Recruit or train dedicated BA/PM resource
-- Establish project delivery methodology and standards
-- Begin building internal software development capability
-- Create IT service catalog and SLA framework
-- Dependencies: Budget approval, resource availability, governance processes
+**These initiatives are already approved or committed to proceed.**
 
-**Initiative 3: Data & Analytics Platform (Months 12-30)**
-- Design and implement data warehouse architecture
-- Develop real-time operational dashboards
-- Create management reporting with trend analysis capabilities
-- Integrate multiple data sources (Acumatica, TOE, Netstock, etc.)
-- Dependencies: Acumatica stabilisation, development capability, data strategy definition
+#### 1. Production Scheduling Solution
 
-**Initiative 4: Best-of-Breed Integration Program (Months 18-36)**
-- Production scheduling solution selection and implementation
-- Manufacturing materials purchasing system evaluation and deployment
-- Integration platform implementation for seamless data flow
-- Process automation and workflow optimisation
-- Dependencies: Development capability, data platform, business requirements definition
+**Business Problem:** Production scheduling is currently manual and inconsistent, making it difficult to optimise production and measure performance.
 
-**Initiative 5: EDI Platform Enhancement (Months 30-48)**
-- Evaluate TOE alternatives vs. improvement options
-- Implement enhanced or replacement EDI solution
-- Improve Bunnings integration reliability and performance
-- Dependencies: Business case analysis, integration platform, development capability
+**Business Value:** Optimise production scheduling, improve manufacturing efficiency, enable data-driven scheduling decisions.
 
-### Key Dependencies & Milestones
+**Status:** Committed to proceed
+**Investment:** ~$2,000/month (~$24,000/year)
+**Timeline:** To be determined based on vendor selection and implementation planning
 
-- Month 3: Governance framework operational
-- Month 6: BA/PM capability in place
-- Month 12: Acumatica core issues resolved
-- Month 18: Development capability operational
-- Month 24: Data warehouse foundation complete
-- Month 30: First best-of-breed integrations live
-- Month 36: Advanced analytics and reporting operational
+**Requirements:**
+- Integration with Acumatica ERP
+- Support for multiple manufacturing sites (PAG, PSJ, ABRA)
+- Optimisation capabilities for production scheduling
+- Data-driven scheduling based on constraints and availability
+
+**Next Steps:**
+- Vendor evaluation and selection
+- Business case development (if required)
+- Implementation planning
+- Integration with Acumatica
+
+#### 2. Warehouse Management System (WMS)
+
+**Business Problem:** Current warehouse operations lack comprehensive WMS capabilities for optimal warehouse management.
+
+**Business Value:** Improve warehouse efficiency, inventory accuracy, and operational visibility.
+
+**Status:** Committed to proceed
+**Investment:** ~$5,000/month (~$60,000/year)
+**Timeline:** To be determined based on vendor selection and implementation planning
+
+**Requirements:**
+- Integration with Acumatica ERP
+- Support for multiple warehouse locations
+- Real-time inventory tracking
+- Optimisation of warehouse operations
+
+**Next Steps:**
+- Vendor evaluation and selection
+- Business case development (if required)
+- Implementation planning
+- Integration with Acumatica
+
+#### 3. Web Application Planners
+
+**Business Problem:** Customer-facing planners are needed to support sales and customer experience.
+
+**Business Value:** Enable customers to configure products, improve customer experience, support sales process.
+
+**Status:** Committed - 5 planners to be built this year
+**Investment:** ~$20,000-$30,000 per planner (~$100,000-$150,000 total)
+**Timeline:** Throughout 2025
+
+**Requirements:**
+- Customer-facing web applications
+- Integration with product data and pricing
+- Modern, user-friendly interface
+- Scalable architecture
+
+**Next Steps:**
+- Requirements gathering for each planner
+- Development partner engagement
+- Development and deployment
+- Ongoing maintenance and support
+
+#### 4. ABRA Acumatica Setup
+
+**Business Problem:** ABRA needs to be properly set up on Acumatica with data migration from MYOB EXO.
+
+**Business Value:** Enable ABRA operations on Acumatica platform, improve data consistency across business units.
+
+**Status:** Committed to proceed
+**Investment:** To be determined (internal resources + external support as required)
+**Timeline:** To be determined
+
+**Requirements:**
+- ABRA setup on Acumatica
+- Data migration from MYOB EXO to Acumatica
+- Product, BOM (materials + workstations + routes) creation
+- Integration with Office 365 to Prostar Management Office environment
+- Teams calling setup
+
+**Next Steps:**
+- Project planning and scope definition
+- Resource allocation
+- Data migration planning
+- Implementation and testing
+
+#### 5. Missing Invoice Project (NZ Focus)
+
+**Business Problem:** Late invoice processing fees of ~$17,000/year (888 NZ invoices), primarily due to EDI integration failures with NZ 3PL. Issues include RTA parent/child relationships, duplicate line items, and EDI errors requiring manual invoice creation.
+
+**Business Value:** 
+- **Cost Savings:** Eliminate ~$17,000/year in late invoice penalties
+- **Operational Efficiency:** Reduce manual processing time (~148 hours/year)
+- **Process Improvement:** Resolve EDI integration issues with NZ 3PL
+
+**Status:** Committed to proceed (Q1 2026 target)
+**Investment:** Up to $20,000 for Acumatica/EDI customisations + internal resources
+**Timeline:** Q1 2026
+
+**Requirements:**
+- Identify and analyse root causes of missing invoices (RTA issues, duplicate line items, EDI errors)
+- Fix EDI integration issues with NZ 3PL
+- Acumatica customisations as required
+- Testing and validation
+
+**Note:** After Q1 2026 business change (no AU 3PLs), focus is NZ only. AU late invoice fees should be eliminated by business change.
+
+**Next Steps:**
+- Project scoping and root cause analysis
+- EDI integration fixes
+- Acumatica customisations (if required)
+- Testing and deployment
+
+### Initiatives Requiring Approval
+
+**These initiatives require business case development and executive approval before proceeding.**
+
+#### 1. Acumatica Optimisation Projects
+
+**Business Problem:** Multiple Acumatica configuration issues affecting operations, including:
+- Custom Special Order tracking issues
+- Ready-to-Assemble parent/child relationship problems (beyond Missing Invoice project)
+- Manufacturing reporting gaps
+- Purchasing workflow inefficiencies
+
+**Business Value:** Resolve Acumatica issues, improve operational efficiency, protect 2-year Acumatica investment.
+
+**Status:** Requires business case approval for each project
+**Investment:** Project-based, each requiring individual business case (typically >$3k threshold for formal approval)
+**Approach:** Each Acumatica optimisation project requires its own business case with:
+- Clear problem statement and business impact
+- Proposed solution and approach
+- Cost estimate and resource requirements
+- ROI analysis and success criteria
+- Risk assessment
+
+**Priority Projects:**
+- **Missing Invoice Project:** Already committed (see above)
+- **Custom Special Order Tracking:** Business case required
+- **Manufacturing Reporting Improvements:** Business case required
+- **Purchasing Workflow Optimisation:** Business case required
+- **Other optimisation projects:** As identified through Phase 0 assessment
+
+**Success Criteria:** 
+- Custom Order tracking accuracy >98%
+- Manufacturing metrics availability 100%
+- Purchasing workflow time reduction 40%
+
+**Next Steps:**
+- Complete Phase 0 assessment work
+- Prioritise Acumatica issues based on business impact
+- Develop business cases for priority projects
+- Executive approval and resource allocation
+- Project execution
+
+#### 2. Data Warehouse & Analytics Platform (Full Implementation)
+
+**Business Problem:** Limited data visibility and reporting capabilities. Manual reporting processes. Lack of real-time operational insights for decision-making.
+
+**Business Value:**
+- Enable data-driven decision making
+- Prevent stockouts and identify logistical issues
+- Identify operational trends and optimisation opportunities
+- Improve management reporting with trend analysis
+
+**Status:** Requires business case approval (subject to MVP success)
+**Investment:** To be determined through business case
+**Approach:** 
+- **Phase 1:** Experimental MVP (see Experimental/R&D section below)
+- **Phase 2:** Full implementation subject to MVP success and business case approval
+
+**Requirements:**
+- Centralised data repository with time series capabilities
+- Integration with multiple data sources (Acumatica, TOE, Bunnings Connect, Email, EDI)
+- Real-time operational dashboards
+- Management reporting with trend analysis
+- Monthly reports and time-in-motion data
+
+**Success Criteria:** (To be defined based on MVP learnings)
+- Operational dashboards deployed and used by management
+- Reduction in manual reporting processes
+- Evidence of improved decision-making
+
+**Note:** Currently being built as MVP on Mac Studio (data collector + SQL database). If MVP demonstrates value to executive team, will develop business case for full implementation.
+
+**Next Steps:**
+- Complete MVP development (target: End of February 2025)
+- Demonstrate value to executive team (Sales & Marketing, then Manufacturing)
+- Develop business case if MVP successful
+- Executive approval and resource allocation (if approved)
+- Full implementation
+
+#### 3. Integration Architecture Strategy
+
+**Business Problem:** Point-to-point integrations with limited standardisation. Integration complexity growing as we add systems.
+
+**Business Value:** Enable seamless data flow, reduce complexity, support scalable integrations, improve integration reliability.
+
+**Status:** Requires business case approval
+**Investment:** To be determined through business case
+**Timeline:** Year 2-3 (subject to approval)
+
+**Requirements:**
+- API strategy and standards
+- Integration platform evaluation and selection (if required)
+- Data integration standards
+- Integration governance framework
+
+**Priority Integrations:**
+- Acumatica to production scheduling system
+- Acumatica to WMS
+- Data warehouse integration (Acumatica, TOE, Netstock, etc.)
+- Web applications and planners integration
+
+**Next Steps:**
+- Complete Phase 0 assessment work
+- Evaluate integration requirements and complexity
+- Develop business case for integration architecture
+- Executive approval (if approved)
+- Implementation
+
+### Experimental/R&D Initiatives
+
+**These initiatives are being developed to prove value before full investment approval.**
+
+#### 1. Data Warehouse MVP (Experimental)
+
+**Business Problem:** Limited data visibility and reporting capabilities. Need to prove value of data warehouse approach before full investment.
+
+**Business Value:** (To be proven)
+- Enable data-driven decision making
+- Prevent stockouts and identify logistical issues
+- Identify operational trends and optimisation opportunities
+
+**Status:** Experimental/R&D - Being built in spare time
+**Investment:** Minimal (Mac Studio + development time)
+**Timeline:** MVP target completion: End of February 2025
+
+**Current Approach:**
+- Building data collector that can grab data and store in SQL database on Mac Studio
+- Iterative approach to demonstrate value over time
+- Starting with Sales & Marketing data, then Manufacturing
+
+**Success Criteria:**
+- Feedback from senior management team/executive on usefulness
+- Evidence of improved decision-making
+- Demonstrates value sufficient for full implementation business case
+
+**Failure Scenario:** If MVP doesn't demonstrate clear value, may be used for internal IT purposes only, or discontinued.
+
+**Next Steps:**
+- Complete MVP development (target: End of February 2025)
+- Demonstrate to Sales & Marketing team
+- Gather feedback and iterate
+- If successful, demonstrate to Manufacturing team
+- If executive team sees value, develop business case for full implementation
+- If not successful, use for internal IT or discontinue
+
+**Note:** If successful and wins executive support, may acquire dedicated resource to maintain and enhance over time.
+
+### Aspirational Initiatives
+
+**These are long-term vision items for future consideration. Business cases would be required if pursued.**
+
+#### 1. Internal Software Development Capability
+
+**Business Problem:** All development currently outsourced. Higher costs, slower speed, dependency on external partners.
+
+**Potential Business Value:**
+- Speed and flexibility in development
+- Knowledge retention within organisation
+- Ability to work on internal optimisation projects with lower ROI thresholds
+- Ideation and custom solution development
+
+**Status:** Aspirational - Unlikely to be approved in near-term, but included as strategic option
+**Investment:** ~$140,000/year salary + benefits + tools + training
+**ROI Analysis Required:**
+- Cost comparison: Internal vs external development
+- Break-even analysis (project volume required)
+- Value of speed, flexibility, knowledge retention
+- Long-term strategic value
+
+**Potential Scope:**
+- Internal business optimisation tools (manufacturing, operations)
+- Acumatica customisations
+- Custom integrations
+- Web applications and planners (partial support)
+- Maintenance and support of custom solutions
+
+**Approach:** 
+- Would require comprehensive business case
+- Cost alone difficult to justify - need to demonstrate strategic value
+- Long-term goal rather than immediate priority
+
+**Note:** Current development is outsourced to partners (~$20-30k per planner). Internal capability could reduce project costs by ~1/3 + provide maintenance in-house, but break-even analysis needed.
+
+#### 2. Comprehensive Best-Practice Frameworks
+
+**Business Problem:** No formal frameworks for vendor management, disaster recovery, data governance, change management, etc.
+
+**Potential Business Value:** Ensure we "keep the lights on," manage business interruptions/disasters, manage IT risk well.
+
+**Status:** Aspirational - Framework to be established, but comprehensive implementation may be aspirational
+
+**Frameworks to Consider:**
+- Vendor & Partner Management Strategy
+- Disaster Recovery & Business Continuity (minimum viable approach may be sufficient)
+- Data Governance & Privacy (minimum viable approach may be sufficient)
+- Change Management & User Adoption
+- Technology Lifecycle & Refresh Strategy
+- IT Service Management (ITSM) standards
+
+**Approach:**
+- Phase 0 assessment work will identify gaps
+- Prioritise based on risk and business impact
+- Implement minimum viable frameworks first
+- Build incrementally based on need
+- Avoid over-engineering upfront
+
+**Note:** COBIT gap analysis will help identify which frameworks are essential vs. nice-to-have. Start with highest-risk areas, build incrementally.
 
 ---
 
 ## Risk Management
 
-### Most Critical Risks to Strategy Delivery
+### Current Risk Understanding
+
+**Note:** Comprehensive risk register will be developed as part of Phase 0 assessment work. Current risks identified:
 
 **Risk 1: Acumatica Investment Protection (HIGH)**
 - *Risk:* Failure to optimise Acumatica could result in sunk costs and business disruption after 2-year investment
 - *Impact:* Loss of ERP foundation, significant re-implementation costs, operational disruption
 - *Mitigation:*
-  - Establish clear governance and priority framework for Acumatica improvements
-  - Engage specialised Acumatica partner for Level 2 support and configuration optimisation
-  - Phase improvements with quick wins to build confidence and momentum
-  - Regular milestone reviews with clear success criteria
+  - Phase 0 assessment to understand current state
+  - Each Acumatica optimisation project requires business case
+  - Engage specialised Acumatica partner for Level 2 support (if required)
+  - Phased improvements with quick wins
 
-**Risk 2: Capability Building Execution (MEDIUM-HIGH)**
-- *Risk:* Inability to attract or develop required BA/PM and development capabilities internally
-- *Impact:* Delayed project delivery, continued dependence on external resources, limited strategic flexibility
-- *Mitigation:*
-  - Dual strategy: recruitment AND training of existing staff with backfill plans
-  - Establish strategic partnerships as backup for capability gaps
-  - Phased capability building with external support during transition
-  - Competitive compensation and development opportunities for retention
-
-**Risk 3: TOE EDI Dependency (MEDIUM)**
+**Risk 2: TOE EDI Dependency (MEDIUM)**
 - *Risk:* Continued outages and poor support from TOE disrupting Bunnings operations
 - *Impact:* Customer relationship damage, operational disruption, manual workaround costs
 - *Mitigation:*
   - Develop contingency plans for TOE outages
-  - Evaluate alternative EDI solutions as part of long-term strategy
+  - Evaluate alternative EDI solutions as part of long-term strategy (aspirational)
   - Strengthen relationships with key TOE personnel
   - Create backup communication channels with Bunnings and 3PLs
 
-**Risk 4: Scope Creep and Priority Dilution (MEDIUM)**
-- *Risk:* Attempting too many initiatives simultaneously without proper governance
-- *Impact:* Resource spread thin, delayed delivery, incomplete implementations
+**Risk 3: Missing Invoice Issues (MEDIUM)**
+- *Risk:* Continued late invoice penalties and manual processing costs
+- *Impact:* ~$17,000/year in penalties + labour costs
 - *Mitigation:*
-  - Strong governance framework with monthly priority reviews
-  - Clear success criteria and milestone-based approvals
-  - Focus on Acumatica optimisation before expanding scope
-  - Regular ROI validation for new initiatives
+  - Missing Invoice project (committed, Q1 2026)
+  - Business change eliminating AU 3PL usage (business initiative, not IT)
 
-**Risk 5: Integration Complexity (MEDIUM)**
-- *Risk:* Underestimating complexity of integrating multiple systems and data sources
-- *Impact:* Cost overruns, delayed implementations, system instability
+**Risk 4: Capability Gaps (MEDIUM)**
+- *Risk:* Lack of BA/PM capabilities, development capabilities affecting project delivery
+- *Impact:* Continued dependence on external resources, limited strategic flexibility
 - *Mitigation:*
-  - Start with simple integrations and build complexity gradually
-  - Invest in proper integration platform and architecture
-  - Use experienced integration partners for complex implementations
-  - Thorough testing and rollback procedures
+  - Project-by-project approach with external partners
+  - Strategic partnerships for capability gaps
+  - Aspirational internal capability building (long-term)
+
+**Risk 5: No Formal IT Risk Management (MEDIUM)**
+- *Risk:* Unknown or unmanaged IT risks
+- *Impact:* Potential business disruption, compliance issues, security risks
+- *Mitigation:*
+  - Phase 0 assessment work to develop comprehensive risk register
+  - Executive presentation of risks for decision-making
+  - Regular risk review and update
 
 ### Risk Appetite
 
@@ -367,6 +654,8 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 - **Moderate appetite** for new technology investments with clear ROI
 - **Low tolerance** for business disruption during implementations
 - **High confidence requirement** in vendor/partner capabilities before engagement
+
+**Note:** Comprehensive risk register and risk appetite will be developed as part of Phase 0 assessment work.
 
 ---
 
@@ -385,784 +674,168 @@ IT will function as both a strategic enabler and business partner (not a cost ce
 - **Frequency:** Monthly meetings with bi-weekly reviews during active project phases
 
 **Project Governance**
-- **Structure:** Dedicated BA/PM resource leading project delivery with clear escalation paths
-- **Methodology:** Structured project approach with defined phases, milestones, and success criteria
-- **Reporting:** Regular status updates to both governance committees
-
-### Progress Measurement KPIs
-
-**Strategic Success Metrics:**
-- **Acumatica Optimisation:** Custom Order tracking accuracy (target: >98%), Ready-to-Assemble processing time reduction (target: 50%), Manufacturing metrics availability (target: 100%)
-- **Capability Building:** BA/PM resource in place and productive (target: Month 6), Development capability operational (target: Month 18)
-- **Data & Analytics:** Real-time dashboard deployment (target: Month 24), Management reporting automation (target: 75% reduction in manual reporting)
-
-**Operational Excellence KPIs:**
-- **System Reliability:** ERP uptime (target: >99.5%), EDI transaction success rate (target: >99%)
-- **Process Efficiency:** Purchasing workflow time reduction (target: 40%), Manual workaround elimination (target: 80% reduction)
-- **Customer Impact:** On-time delivery performance to Bunnings (maintain >95%), Customer complaint reduction related to order issues (target: 50% reduction)
-
-**Financial Performance Indicators:**
-- **ROI Achievement:** Positive ROI on each major initiative within 18 months of implementation
-- **Cost Management:** IT operational costs as percentage of revenue (target: maintain or reduce current levels)
-- **Investment Tracking:** Actual vs. budgeted costs for each initiative (target: <10% variance)
-
-### Reporting & Review Cadence
-
-- **Monthly:** Operational governance group meetings with KPI dashboard reviews
-- **Quarterly:** Strategic governance committee with comprehensive progress reports and budget reviews
-- **Ad-hoc:** Issue escalation and critical decision points
-- **Annual:** Complete strategy review and adjustment for following year
+- **Structure:** Project-by-project governance with clear escalation paths
+- **Methodology:** Structured project approach with defined phases, milestones, and success criteria (to be established)
+- **Reporting:** Regular status updates to governance committees
 
 ### Decision-Making Framework
 
-- **ROI-based approval process** for all significant investments
+- **ROI-based approval process** for all significant investments (>$3k threshold)
+- **Business case required** for initiatives requiring approval
 - **Clear escalation paths** for issues and decisions
 - **Regular priority reassessment** based on business needs and performance
 - **Structured change management** for scope or timeline adjustments
 
-### Knowledge Management
+### Success Metrics
 
-As part of governance, establish knowledge management practices:
-- Document system configurations, processes, and procedures
-- Maintain runbooks for common operations and incident response
-- Capture lessons learned from projects and initiatives
-- Ensure knowledge transfer between team members and partners
-- Create accessible documentation repository for IT systems and processes
+**Note:** Comprehensive KPIs will be developed as part of Phase 0 assessment work. Current success criteria:
 
-### IT Performance Management Framework
+**Committed Initiatives:**
+- Missing Invoice Project: Eliminate ~$17,000/year in late invoice penalties
+- Production Scheduler: Successful integration with Acumatica, improved scheduling efficiency
+- WMS: Successful integration with Acumatica, improved warehouse operations
+- Planners: 5 planners deployed and operational in 2025
 
-- **Service Level Management:** Define and monitor SLAs for critical IT services
-- **Performance Dashboards:** Regular reporting on system performance, availability, and user satisfaction
-- **Continuous Improvement:** Regular review of service delivery and identification of improvement opportunities
-- **Stakeholder Feedback:** Regular collection and analysis of user feedback on IT services
+**Initiatives Requiring Approval:**
+- Acumatica Optimisation: Custom Order tracking accuracy >98%, Manufacturing metrics availability 100%
+- Data Warehouse: (To be defined based on MVP learnings)
 
----
+**Aspirational Initiatives:**
+- Internal Development Capability: (Business case required before success criteria defined)
 
-## Strategic Capabilities & Enablers
+### Reporting & Review Cadence
 
-### Vendor & Partner Management Strategy
+- **Monthly:** Operational governance group meetings
+- **Quarterly:** Strategic governance committee with comprehensive progress reports
+- **Ad-hoc:** Issue escalation and critical decision points
+- **Annual:** Complete strategy review and adjustment for following year
 
-**Current State:** Ad-hoc vendor management without formal framework
-
-**Strategic Approach:**
-Establish formal vendor and partner management framework to ensure effective relationships, risk mitigation, and value delivery.
-
-**Vendor Selection Processes:**
-- Define vendor evaluation criteria (technical capability, financial stability, cultural fit, support quality)
-- Establish formal RFP/RFQ processes for significant engagements
-- Conduct reference checks and due diligence
-- Evaluate total cost of ownership, not just initial costs
-- Consider strategic partnerships vs. transactional relationships
-
-**Contract Management:**
-- Standard contract templates with appropriate terms and conditions
-- Clear service level agreements (SLAs) and key performance indicators (KPIs)
-- Regular contract reviews and renewal planning
-- Exit clauses and transition planning provisions
-- Intellectual property and data ownership clarity
-
-**Performance Monitoring:**
-- Regular vendor performance reviews (quarterly minimum)
-- KPI tracking against agreed SLAs
-- Issue escalation and resolution processes
-- Regular business relationship reviews
-- Feedback mechanisms for continuous improvement
-
-**Risk Assessment:**
-- Vendor financial health monitoring
-- Dependency risk assessment (single points of failure)
-- Security and compliance risk evaluation
-- Business continuity and disaster recovery capabilities
-- Regular vendor risk reviews
-
-**Exit Strategies:**
-- Documented exit plans for critical vendors
-- Knowledge transfer requirements
-- Data migration and system transition planning
-- Alternative vendor identification and evaluation
-- Transition timelines and resource requirements
-
-**Implementation Priority:** Medium-term (Year 1-2) - Establish framework while engaging Acumatica partner
-
-### Integration Architecture Strategy
-
-**Current State:** Point-to-point integrations with limited standardisation
-
-**Strategic Approach:**
-Establish comprehensive integration architecture strategy to enable seamless data flow, reduce complexity, and support scalable integrations.
-
-**API Strategy and Standards:**
-- RESTful API design standards and conventions
-- API versioning and backward compatibility policies
-- Authentication and authorisation standards (OAuth 2.0, API keys)
-- Rate limiting and throttling policies
-- API documentation and developer portal requirements
-
-**Integration Platform Approach:**
-- Evaluate integration platform options (MuleSoft, Boomi, Zapier, custom solutions)
-- Centralised integration hub for managing all system connections
-- Reusable integration patterns and templates
-- Integration monitoring and error handling
-- Data transformation and mapping standards
-
-**Data Integration Standards:**
-- Data format standards (JSON, XML, CSV)
-- Data validation and quality checks
-- Error handling and retry mechanisms
-- Data synchronisation patterns (real-time, batch, event-driven)
-- Master data management approach
-
-**Integration Governance:**
-- Integration architecture review board
-- Integration design patterns and best practices
-- Security and compliance requirements for integrations
-- Performance and scalability standards
-- Integration testing and validation processes
-
-**Priority Integrations:**
-- Acumatica to production scheduling system
-- Acumatica to manufacturing materials purchasing
-- Data warehouse integration (Acumatica, TOE, Netstock, etc.)
-- EDI platform enhancements
-- Web applications and planners integration
-
-**Implementation Priority:** Medium-term (Year 2-3) - Begin with integration platform evaluation and design standards
-
-### Innovation & Emerging Technologies
-
-**Strategic Approach:**
-Establish framework for evaluating and adopting emerging technologies that align with business priorities and provide competitive advantage.
-
-**Technology Evaluation Process:**
-- Business case development for new technology adoption
-- Proof of concept (POC) and pilot program approach
-- Risk assessment and mitigation planning
-- Cost-benefit analysis and ROI evaluation
-- Alignment with strategic priorities and business objectives
-
-**Emerging Technology Assessment:**
-- **Artificial Intelligence & Machine Learning:** Evaluate opportunities for predictive analytics, demand forecasting, quality control automation
-- **Robotic Process Automation (RPA):** Identify manual processes suitable for automation
-- **Internet of Things (IoT):** Assess opportunities for manufacturing and warehouse monitoring
-- **Cloud-Native Technologies:** Continue adoption of serverless and cloud-native architectures
-- **Advanced Analytics:** Real-time analytics, predictive modelling, business intelligence
-
-**Innovation Pipeline:**
-- Regular technology trend assessment (quarterly)
-- Business stakeholder engagement for innovation opportunities
-- Innovation lab or sandbox environment for experimentation
-- Partnership with technology vendors and consultants
-- Industry best practice research and benchmarking
-
-**Alignment with Business Priorities:**
-- Focus on technologies that support supply chain optimisation
-- Prioritise solutions that improve manufacturing efficiency
-- Consider customer experience enhancement opportunities
-- Evaluate cost reduction and operational efficiency improvements
-- Ensure alignment with data warehouse and analytics strategy
-
-**Implementation Priority:** Long-term (Year 3-5) - Begin evaluation framework in Year 2, pilot programs in Year 3
-
----
-
-## Operational Excellence
-
-### Disaster Recovery & Business Continuity
-
-**Current State:** Minimal documented disaster recovery and business continuity planning
-
-**Strategic Approach:**
-Establish comprehensive disaster recovery and business continuity framework to ensure business resilience and minimise operational disruption.
-
-**Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO):**
-
-| System/Service | RTO | RPO | Criticality |
-|----------------|-----|-----|-------------|
-| Acumatica ERP | 4 hours | 1 hour | Critical |
-| TOE EDI | 2 hours | 15 minutes | Critical |
-| Email & Communication | 4 hours | 1 hour | High |
-| File Storage (SharePoint) | 8 hours | 4 hours | High |
-| Web Applications | 24 hours | 12 hours | Medium |
-| Internal Tools | 48 hours | 24 hours | Low |
-
-**Backup and Recovery Strategies:**
-- **Acumatica:** Daily automated backups with 30-day retention, tested quarterly restore procedures
-- **Email & Communication:** Microsoft 365 native backup with geo-redundancy
-- **File Storage:** SharePoint with version history and geo-redundancy
-- **Databases:** Automated daily backups with point-in-time recovery capability
-- **Web Applications:** Automated backups with tested restore procedures
-- **Configuration Data:** Version-controlled configuration management
-
-**Failover Capabilities:**
-- Identify critical systems requiring high availability
-- Evaluate failover options (active-passive, active-active)
-- Network redundancy and failover mechanisms
-- Cloud-based disaster recovery options
-- Partner and vendor disaster recovery capabilities
-
-**Testing and Validation:**
-- Quarterly disaster recovery testing for critical systems
-- Annual full business continuity plan testing
-- Document test results and improvement actions
-- Update recovery procedures based on test outcomes
-- Train IT team on disaster recovery procedures
-
-**Business Continuity Planning:**
-- Document critical business processes and IT dependencies
-- Identify alternative work locations and remote access capabilities
-- Communication plans for business disruption scenarios
-- Vendor and partner business continuity assessment
-- Regular review and update of business continuity plans
-
-**Implementation Priority:** Short-term (Year 1) - Establish RTO/RPO definitions and backup strategies, implement testing schedule
-
-### Data Governance & Privacy
-
-**Current State:** Minimal formal data governance framework
-
-**Strategic Approach:**
-Establish comprehensive data governance framework to ensure data quality, privacy compliance, and effective data management.
-
-**Data Classification Framework:**
-- **Public:** Marketing content, product information, publicly available data
-- **Internal:** Business data, analytics, configurations, operational data
-- **Confidential:** Customer PII, financial data, authentication credentials, business plans
-- **Restricted:** Payment card data (PCI DSS scope), sensitive personal information
-
-**Data Retention Policies:**
-- Define retention periods by data classification and business requirements
-- Legal and regulatory compliance requirements (tax records, employment records)
-- Data archival and deletion procedures
-- Document retention schedules and responsibilities
-- Regular review and update of retention policies
-
-**Privacy Compliance:**
-- **Australian Privacy Act 1988:** Compliance with Australian privacy principles
-- **GDPR (if applicable):** Compliance for international data processing
-- **Data breach notification:** Procedures for identifying and reporting data breaches
-- **Privacy impact assessments:** For new systems and processes handling personal information
-- **Privacy training:** Regular training for staff handling personal information
-
-**Data Ownership and Quality Management:**
-- Define data owners and stewards for key data domains
-- Data quality standards and measurement
-- Data quality monitoring and improvement processes
-- Master data management approach
-- Data lineage and traceability
-
-**Data Security:**
-- Encryption at rest and in transit for sensitive data
-- Access controls and authentication for data access
-- Data loss prevention (DLP) policies and tools
-- Regular security assessments and audits
-- Incident response procedures for data security incidents
-
-**Implementation Priority:** Short-term (Year 1) - Establish data classification framework and privacy compliance procedures
-
-### Change Management & User Adoption
-
-**Current State:** Limited formal change management processes
-
-**Strategic Approach:**
-Establish comprehensive change management and user adoption framework to ensure successful system implementations and user engagement.
-
-**Organisational Change Management Processes:**
-- Change impact assessment for IT initiatives
-- Stakeholder analysis and engagement planning
-- Communication plans for system changes
-- Training needs analysis and training delivery
-- Resistance management and support strategies
-
-**User Training Strategies:**
-- Role-based training programs
-- Training delivery methods (classroom, online, one-on-one)
-- Training materials and documentation
-- Train-the-trainer programs for super users
-- Ongoing support and refresher training
-
-**Communication Plans:**
-- Pre-implementation communication (what, why, when)
-- During-implementation updates and support
-- Post-implementation follow-up and feedback
-- Multiple communication channels (email, meetings, intranet, training sessions)
-- Clear messaging on benefits and changes
-
-**Adoption Measurement:**
-- System usage metrics and analytics
-- User satisfaction surveys
-- Support ticket analysis
-- Business outcome measurement
-- Regular adoption reviews and improvement actions
-
-**Change Management for Acumatica:**
-- Critical focus area given current adoption challenges
-- Dedicated change management support for Acumatica improvements
-- User feedback mechanisms and continuous improvement
-- Quick wins to build confidence and momentum
-- Long-term adoption strategy aligned with optimisation initiatives
-
-**Implementation Priority:** Short-term (Year 1) - Establish change management framework, focus on Acumatica adoption
-
-### Technology Lifecycle & Refresh Strategy
-
-**Current State:** Partial refresh planning (e.g., PC refresh) but needs standardisation
-
-**Strategic Approach:**
-Establish standardised technology lifecycle and refresh strategy to ensure systems remain current, secure, and supported.
-
-**Hardware Refresh Cycles:**
-- **Desktop/Laptop Computers:** 3-4 year refresh cycle
-- **Servers:** 4-5 year refresh cycle (considering cloud migration)
-- **Network Equipment:** 5-7 year refresh cycle
-- **Mobile Devices:** 2-3 year refresh cycle
-- **Peripheral Equipment:** As needed based on failure rates and support
-
-**Software Lifecycle Management:**
-- **Operating Systems:** Track end-of-life dates and plan upgrades
-- **Business Applications:** Regular version reviews and upgrade planning
-- **Security Software:** Keep current with latest versions and patches
-- **Development Tools:** Regular updates and version management
-- **Cloud Services:** Monitor service updates and new features
-
-**End-of-Life Technology Management:**
-- Maintain inventory of technology with end-of-life dates
-- Plan replacements 12-18 months before end-of-life
-- Risk assessment for systems approaching end-of-life
-- Budget planning for end-of-life replacements
-- Communication and transition planning
-
-**Budget Planning for Refresh Cycles:**
-- Multi-year technology refresh budget planning
-- Phased refresh approach to manage cash flow
-- Consider total cost of ownership (purchase, support, maintenance)
-- Evaluate refresh vs. replacement options
-- Align refresh cycles with business planning cycles
-
-**Refresh Prioritisation:**
-- Criticality of system to business operations
-- Security and compliance requirements
-- Support availability and costs
-- Performance and capability requirements
-- Integration dependencies
-
-**Implementation Priority:** Short-term (Year 1) - Document current technology inventory and establish refresh cycles
-
----
-
-## Compliance & Regulatory
-
-### Industry-Specific Compliance Requirements
-
-**Strategic Approach:**
-Ensure IT systems and processes support compliance with relevant industry standards and regulatory requirements.
-
-**Manufacturing & Supply Chain Compliance:**
-- Quality management system requirements
-- Traceability and product recall capabilities
-- Supplier compliance and certification tracking
-- Export/import compliance for international supply chain
-
-**Financial Compliance:**
-- Accounting standards compliance (Australian Accounting Standards)
-- Financial reporting and audit trail requirements
-- Tax compliance and reporting capabilities
-- Payment processing compliance (PCI DSS if applicable)
-
-**Employment & HR Compliance:**
-- Employment record keeping requirements
-- Payroll and tax compliance
-- Workplace health and safety record keeping
-- Privacy compliance for employee data
-
-### Standards Alignment
-
-**ISO Standards (where applicable):**
-- ISO 27001 (Information Security Management) - Consider for future certification
-- ISO 9001 (Quality Management) - Support through IT systems
-- Industry-specific ISO standards as required
-
-**SOC 2 (if applicable):**
-- Consider SOC 2 certification for cloud services and data handling
-- Vendor SOC 2 compliance requirements
-- Internal controls and audit requirements
-
-**Compliance Considerations in Relevant Sections:**
-- **Data Governance:** Privacy Act, GDPR compliance
-- **Security:** Industry security standards and best practices
-- **Disaster Recovery:** Business continuity and resilience requirements
-- **Vendor Management:** Vendor compliance and certification requirements
-
-### Risk-Based Compliance Approach
-
-- Identify compliance requirements relevant to IT systems and processes
-- Assess compliance risks and prioritise based on business impact
-- Implement controls and processes to address compliance requirements
-- Regular compliance reviews and audits
-- Documentation and evidence of compliance
-
-**Implementation Priority:** Ongoing - Integrate compliance considerations into all IT initiatives
-
----
-
-## Financial Planning & Budget Management
-
-### IT Budget Model
-
-**Strategic Approach:**
-Establish structured IT budget model that supports strategic initiatives while maintaining operational efficiency.
-
-**Budget Categories:**
-- **Operational Expenditure (OpEx):** Ongoing IT operations, support, licenses, subscriptions
-- **Capital Expenditure (CapEx):** Hardware purchases, major software licenses, infrastructure investments
-- **Project Expenditure:** Strategic initiatives, implementations, development projects
-- **Training & Development:** Staff training, certifications, professional development
-
-**Operational vs Capital Expenditure Framework:**
-- Clear classification criteria for OpEx vs CapEx
-- Multi-year capital planning for major investments
-- Operational budget aligned with service delivery requirements
-- Cloud service cost management and optimisation
-
-**Multi-Year Planning Approach:**
-- 3-year strategic budget planning aligned with IT strategy
-- Annual budget planning with quarterly reviews
-- Budget forecasting and variance analysis
-- Contingency planning for unexpected requirements
-
-**Budget Allocation Methodology:**
-- Strategic initiative funding based on ROI and business case approval
-- Operational budget based on service requirements and SLAs
-- Project budget allocation through governance approval process
-- Budget tracking and reporting to governance committees
-
-**ROI-Based Budget Approvals:**
-- Business case required for significant investments
-- ROI calculation and payback period analysis
-- Risk-adjusted ROI considerations
-- Regular ROI validation and benefits realisation tracking
-
-**Budget Management:**
-- Monthly budget tracking and variance reporting
-- Quarterly budget reviews with governance committees
-- Budget reforecasting based on actuals and changes
-- Cost optimisation initiatives and efficiency improvements
-
-**Implementation Priority:** Short-term (Year 1) - Establish budget model and processes, integrate with governance framework
-
----
-
-## User Experience & Service Delivery
-
-### Service Quality Considerations
-
-**Strategic Approach:**
-Focus on delivering high-quality IT services that meet business needs and user expectations.
-
-**IT Service Management:**
-- Incident management processes and tools (FreshService)
-- Problem management and root cause analysis
-- Change management and release management
-- Service request management and fulfilment
-
-**Service Catalog:**
-- Documented IT services and service descriptions
-- Service levels and availability targets
-- Service request procedures and approval processes
-- Service pricing and chargeback (if applicable)
-
-**User Experience Improvement:**
-- Regular user satisfaction surveys
-- User feedback collection and analysis
-- Service improvement initiatives based on feedback
-- User training and support to improve experience
-- Self-service capabilities where appropriate
-
-**Service Level Management:**
-- Define SLAs for critical IT services
-- Monitor and report on SLA performance
-- Service level reviews with business stakeholders
-- Continuous improvement of service levels
-
-**Implementation Priority:** Medium-term (Year 1-2) - Enhance service management processes, develop service catalog
-
----
-
-## Project Delivery Best Practices
-
-### Project Delivery Methodology
-
-**Strategic Approach:**
-Establish standardised project delivery methodology to ensure consistent, successful project outcomes.
-
-**Project Lifecycle Phases:**
-- **Initiation:** Project charter, stakeholder identification, initial scope definition
-- **Planning:** Detailed planning, resource allocation, risk assessment, schedule development
-- **Execution:** Project delivery, monitoring, issue management, change control
-- **Closure:** Project completion, lessons learned, handover to operations, benefits realisation
-
-**Methodology Selection Criteria:**
-- **Agile:** For projects with evolving requirements, iterative development, rapid delivery
-- **Waterfall:** For projects with well-defined requirements, sequential phases, formal approvals
-- **Hybrid:** Combine agile and waterfall approaches based on project characteristics
-- Selection based on project size, complexity, requirements stability, team capability
-
-**Project Governance and Decision-Making Frameworks:**
-- Project steering committee for major projects
-- Regular project status reporting and reviews
-- Escalation paths for issues and decisions
-- Change control board for scope and timeline changes
-- Go/no-go decisions at key milestones
-
-**Stage Gates and Approval Processes:**
-- Define stage gates at key project milestones
-- Approval criteria and decision-making authority
-- Required deliverables and documentation at each gate
-- Budget and resource approval processes
-- Risk assessment and mitigation review
-
-### Project Management Standards
-
-**Project Charter and Scope Management:**
-- Project charter with objectives, scope, success criteria
-- Scope definition and boundaries
-- Scope change control process
-- Requirements traceability
-- Stakeholder sign-off on scope
-
-**Risk and Issue Management Processes:**
-- Risk identification and assessment
-- Risk register maintenance and review
-- Risk mitigation and contingency planning
-- Issue logging, tracking, and resolution
-- Escalation procedures for high-risk issues
-
-**Change Control and Scope Management:**
-- Formal change request process
-- Impact assessment for scope changes
-- Change approval authority and process
-- Change documentation and communication
-- Version control for project documentation
-
-**Quality Assurance and Testing Standards:**
-- Quality planning and quality criteria definition
-- Testing strategy and test planning
-- Test execution and defect management
-- User acceptance testing (UAT) processes
-- Quality gates before production deployment
-
-**Documentation Requirements:**
-- Project documentation standards and templates
-- Requirements documentation
-- Design and architecture documentation
-- Test documentation and results
-- Project closure documentation and lessons learned
-
-### Delivery Frameworks
-
-**Business Case Development and Approval:**
-- Business case template and requirements
-- ROI calculation and benefits analysis
-- Cost estimation and budget planning
-- Risk assessment and mitigation
-- Executive approval process
-
-**Requirements Gathering and Analysis:**
-- Requirements elicitation techniques
-- Requirements documentation and traceability
-- Requirements validation and sign-off
-- Change management for requirements
-- Business analysis best practices
-
-**Design and Architecture Review Processes:**
-- Solution design documentation
-- Architecture review and approval
-- Technical design reviews
-- Security and compliance review
-- Design sign-off processes
-
-**Implementation and Deployment Standards:**
-- Implementation planning and scheduling
-- Deployment procedures and checklists
-- Rollback and recovery procedures
-- Production deployment approval
-- Post-deployment validation
-
-**Post-Implementation Review and Lessons Learned:**
-- Post-implementation review process
-- Benefits realisation assessment
-- Lessons learned capture and documentation
-- Knowledge sharing and improvement actions
-- Project closure and handover to operations
-
-### Resource Management
-
-**Project Resource Allocation and Planning:**
-- Resource planning and allocation processes
-- Resource capacity management
-- Skills and capability requirements identification
-- Resource conflict resolution
-- Resource utilisation tracking
-
-**Skills and Capability Requirements:**
-- Project team skills assessment
-- Training and development needs
-- External resource requirements
-- Partner and vendor resource engagement
-- Knowledge transfer and capability building
-
-**External Partner Engagement for Projects:**
-- Partner selection for project delivery
-- Partner engagement and management
-- Partner performance monitoring
-- Knowledge transfer from partners
-- Transition to internal capability
-
-**Project Team Structure and Roles:**
-- Project manager role and responsibilities
-- Business analyst role and responsibilities
-- Technical lead and development team roles
-- Testing and quality assurance roles
-- Project sponsor and steering committee roles
-
-### Success Measurement
-
-**Project Success Criteria and KPIs:**
-- On-time delivery performance
-- On-budget delivery performance
-- Quality metrics and defect rates
-- User satisfaction and adoption
-- Business benefits realisation
-
-**Benefits Realisation Tracking:**
-- Benefits identification and measurement
-- Benefits tracking and reporting
-- Benefits realisation reviews
-- ROI validation and reporting
-- Continuous improvement based on benefits
-
-**Project Health Monitoring and Reporting:**
-- Regular project status reporting
-- Project dashboard and metrics
-- Risk and issue tracking
-- Budget and schedule variance reporting
-- Stakeholder communication and updates
-
-**Alignment with BA/PM Capability Building:**
-- Project delivery methodology supports BA/PM capability development
-- Training and certification programs for project management
-- Mentoring and coaching for BA/PM resources
-- Knowledge sharing and best practice development
-- Continuous improvement of project delivery capabilities
-
-**Implementation Priority:** Short-term (Year 1) - Establish project delivery methodology and standards, align with BA/PM capability building
+**Note:** Reporting framework will be enhanced as Phase 0 assessment work is completed.
 
 ---
 
 ## Implementation Plan & Next Steps
 
-### Key Assumptions
+### Phase 0: Foundation Assessment (Next 3-4 Months)
 
-**Business Assumptions:**
-- Continued growth and partnership with Bunnings as primary customer
-- Existing Acumatica investment will be protected rather than replaced
-- Business appetite for ROI-driven IT investments with clear business cases
-- 150-person organisation size and complexity levels remain relatively stable
-- China sourcing and 3PL distribution model continues as primary operational approach
+**Priority 1: IT Assessment**
+- Comprehensive current state analysis
+- System inventory and documentation
+- Process documentation and gap identification
 
-**Technology Assumptions:**
-- Acumatica configuration issues are resolvable with proper expertise and governance
-- Hybrid in-house/external partner model is financially and operationally viable
-- Data warehouse and analytics technology is mature enough for reliable implementation
-- Integration complexity can be managed through phased approach and proper architecture
-- TOE EDI issues can be mitigated through alternatives or improvements
+**Priority 2: COBIT Gap Analysis**
+- Assessment against COBIT 4 framework
+- Gap identification and prioritisation
+- Roadmap development
 
-**Resource Assumptions:**
-- Executive leadership commitment to IT as strategic enabler and business partner
-- Budget availability for positive ROI initiatives as presented
-- Ability to recruit or develop required BA/PM and development capabilities
-- Current IT support partner relationship remains stable and effective
-- Dedicated governance time commitment from business stakeholders
+**Priority 3: Capability Maturity Matrix**
+- Current maturity assessment
+- Target maturity definition
+- Improvement roadmap
 
-**Timeline Assumptions:**
-- 12-month timeframe for Acumatica stabilisation is achievable with proper focus
-- 18-month timeline for building internal development capability is realistic
-- Business processes can accommodate phased implementations without major disruption
-- External partner availability and capability as required
+**Priority 4: Risk Register Development**
+- Comprehensive risk identification
+- Risk assessment and prioritisation
+- Executive presentation
+
+**Deliverables:**
+- IT Assessment Report
+- COBIT Gap Analysis Report
+- Capability Maturity Matrix
+- Risk Register for Executive Presentation
 
 ### Immediate Actions (Next 30 Days)
 
-1. **Executive Approval:** Present IT strategy to executive leadership for approval and budget commitment
-2. **Governance Establishment:** Form IT Strategy Governance Committee and schedule first meeting
-3. **Partner Engagement:** Begin evaluation and selection of specialised Acumatica partner for Level 2 support
-4. **Priority Documentation:** Document and validate Acumatica issue priorities with business stakeholders
+1. **Executive Approval:** Present IT strategy to executive leadership for approval
+2. **Phase 0 Planning:** Plan and initiate Phase 0 assessment work
+3. **Governance Establishment:** Form IT Strategy Governance Committee and schedule first meeting
+4. **Committed Initiatives:** Progress committed initiatives (scheduler, WMS, planners, ABRA, Missing Invoice)
 
 ### Short-Term Actions (Next 60-90 Days)
 
-1. **BA/PM Resource:** Begin recruitment process or training program for BA/PM capability
-2. **Acumatica Partner Selection:** Complete partner evaluation and establish support engagement
-3. **Governance Framework:** Implement monthly operational governance meetings and processes
-4. **Quick Wins:** Identify and implement immediate Acumatica improvements to build momentum
-5. **Project Methodology:** Establish project delivery standards and procedures
-6. **KPI Baseline:** Document current performance metrics for future comparison
-7. **Data Governance:** Establish data classification framework and privacy compliance procedures
-8. **Disaster Recovery:** Define RTO/RPO for critical systems and establish backup strategies
-
-### Foundation Setting (Next 90 Days)
-
-1. **Technology Inventory:** Document current technology inventory and establish refresh cycles
-2. **Vendor Relationships:** Begin preliminary discussions with potential development and analytics partners
-3. **Strategy Communication:** Share approved strategy with broader organisation and stakeholders
-4. **Integration Planning:** Begin integration architecture strategy development
-5. **Change Management:** Establish change management framework, focus on Acumatica adoption
-
-### Prioritisation of New Capability Areas
-
-**Year 1 Priorities:**
-1. Acumatica optimisation (highest priority)
-2. IT governance framework
-3. BA/PM capability building
-4. Project delivery methodology
-5. Data governance and privacy compliance
-6. Disaster recovery and business continuity
-7. Technology lifecycle management
-8. Change management and user adoption
-
-**Year 2-3 Priorities:**
-1. Software development capability
-2. Data warehouse and analytics platform
-3. Vendor and partner management framework
-4. Integration architecture strategy
-5. Best-of-breed integrations
-6. Service delivery enhancement
-
-**Year 3-5 Priorities:**
-1. Innovation and emerging technologies
-2. EDI platform enhancement
-3. Advanced automation
-4. Predictive analytics
+1. **Phase 0 Execution:** Execute Phase 0 assessment work
+2. **Committed Initiatives:** Continue execution of committed initiatives
+3. **Business Case Development:** Begin developing business cases for priority Acumatica optimisation projects
+4. **Data Warehouse MVP:** Complete MVP development (target: End of February 2025)
+5. **Governance Framework:** Implement monthly operational governance meetings
 
 ### Success Criteria
 
-**Year 1 Success Criteria:**
-- Governance framework operational and effective
-- BA/PM capability in place and productive
-- Acumatica core issues resolved (>98% order tracking accuracy)
-- Project delivery methodology established
-- Data governance framework implemented
-- Disaster recovery plans documented and tested
+**Phase 0 (Q2 2025):**
+- IT Assessment completed
+- COBIT gap analysis completed
+- Capability maturity matrix developed
+- Risk register developed and presented to executive
 
-**Year 2-3 Success Criteria:**
-- Development capability operational
-- Data warehouse foundation complete with real-time dashboards
-- Integration architecture established
-- First best-of-breed integrations live
-- Vendor management framework operational
+**Year 1:**
+- Phase 0 assessment work completed
+- Committed initiatives progressing (scheduler, WMS, planners, ABRA, Missing Invoice)
+- Business cases developed for priority Acumatica optimisation projects
+- Data warehouse MVP demonstrated (if successful)
+- Governance framework operational
 
-**Long-term Success Criteria:**
-- Advanced analytics and reporting operational
-- EDI platform enhanced or replaced
-- Innovation pipeline established
-- Full capability realisation achieved
+**Years 2-3:**
+- Priority Acumatica optimisation projects completed (subject to approval)
+- Data warehouse full implementation (if MVP successful and approved)
+- Integration architecture established (if approved)
+- Best-of-breed integrations operational (if approved)
+
+---
+
+## Framework for Future Business Cases
+
+### Business Case Structure
+
+Each initiative requiring approval should include:
+
+1. **Business Problem Statement**
+   - Clear description of the problem
+   - Quantified business impact (cost, risk, opportunity cost)
+   - What happens if we don't do this
+
+2. **Proposed Solution**
+   - Clear description of proposed solution
+   - Minimum viable approach vs. comprehensive solution
+   - Alternatives considered
+
+3. **Investment Required**
+   - Cost breakdown (one-time and ongoing)
+   - Resource requirements
+   - Timeline and milestones
+
+4. **Business Value & ROI**
+   - Expected benefits (quantified where possible)
+   - ROI calculation and payback period
+   - Success criteria and KPIs
+
+5. **Risk Assessment**
+   - Implementation risks
+   - Business risks
+   - Mitigation strategies
+
+6. **Decision Framework**
+   - Approval authority
+   - Go/no-go criteria
+   - Success measurement approach
+
+### Prioritisation Framework
+
+Initiatives should be prioritised based on:
+
+1. **Business Impact:** High, medium, low impact on business operations
+2. **Urgency:** Critical, high, medium, low urgency
+3. **ROI:** High, medium, low ROI and payback period
+4. **Risk:** High, medium, low risk (if not addressed)
+5. **Dependencies:** Dependencies on other initiatives
+6. **Resource Requirements:** High, medium, low resource requirements
+
+### Opportunity Cost Consideration
+
+For aspirational initiatives, the strategy should articulate:
+- What we're potentially losing by not doing this (even if difficult to quantify)
+- Long-term strategic value
+- Competitive positioning implications
+- Options for future consideration
 
 ---
 
@@ -1188,24 +861,39 @@ Establish standardised project delivery methodology to ensure consistent, succes
 - **ROI:** Return on Investment
 - **3PL:** Third-Party Logistics
 - **TOE:** The Order Exchange
+- **COBIT:** Control Objectives for Information and Related Technologies
+- **WMS:** Warehouse Management System
+- **RTA:** Ready-to-Assemble
 
-### Appendix C: Technology Inventory Summary
+### Appendix C: Phase 0 Assessment Work Plan
 
-*(To be developed as part of technology lifecycle management initiative)*
+*(To be developed as Phase 0 work is planned)*
 
-### Appendix D: Vendor Management Framework Details
+### Appendix D: Business Case Templates
 
-*(To be developed as part of vendor management strategy implementation)*
-
-### Appendix E: Integration Standards Documentation
-
-*(To be developed as part of integration architecture strategy implementation)*
+*(To be developed as framework for future business cases)*
 
 ---
 
-**Document Review:** This strategy document should be reviewed quarterly and updated annually to ensure continued alignment with business objectives and technology evolution.
+## Document Review & Evolution
 
-**Next Review Date:** April 2025
+**This is Version 1.0 - A Working Document**
+
+This strategy document is a starting point and will evolve as:
+- Phase 0 assessment work is completed
+- Business cases are developed and approved
+- Initiatives progress and learnings are captured
+- Business needs and priorities change
+
+**Review Cadence:**
+- Quarterly review with governance committee
+- Annual comprehensive review and update
+- Ad-hoc updates as major decisions are made or initiatives are approved/completed
+
+**Next Review Date:** April 2025 (after Phase 0 assessment work completion)
+
+**Version History:**
+- Version 1.0 (January 2025): Initial strategy document incorporating CEO challenge feedback
 
 ---
 
