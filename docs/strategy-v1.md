@@ -71,9 +71,12 @@ This strategy document is structured to clearly distinguish between:
 - Risk register development for executive presentation
 
 **Year 1: Foundation Setting**
-- Committed initiatives (production scheduler, WMS, planners, ABRA setup, Missing Invoice fix)
+- Committed initiatives (production scheduler, WMS, planners, Lugna 3D planner migration, headless CMS for planners, ABRA IT migration, ABRA Acumatica migration, Prostar Joinery office move, ABRA office relocation, Missing Invoice fix)
 - Data warehouse MVP (experimental/R&D)
 - Ongoing Acumatica support (2 support staff, occasional small customisations)
+
+**Q2 2026:**
+- WordPress websites migration to hosted solution (subject to approval, lower priority)
 
 **Years 2-3: Capability Building** *(Requires Business Cases)*
 - Strategic capability building initiatives
@@ -303,7 +306,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 
 **Status:** Committed to proceed
 **Investment:** ~$2,000/month (~$24,000/year)
-**Timeline:** To be determined based on vendor selection and implementation planning
+**Timeline:** Q1 2026
 
 **Requirements:**
 - Integration with Acumatica ERP
@@ -325,7 +328,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 
 **Status:** Committed to proceed
 **Investment:** ~$5,000/month (~$60,000/year)
-**Timeline:** To be determined based on vendor selection and implementation planning
+**Timeline:** Q1 2026
 
 **Requirements:**
 - Integration with Acumatica ERP
@@ -345,9 +348,9 @@ Before proceeding with major strategic initiatives, foundational assessment work
 
 **Business Value:** Enable customers to configure products, improve customer experience, support sales process.
 
-**Status:** Committed - 5 planners to be built this year
+**Status:** Committed - 5 planners to be built
 **Investment:** ~$20,000-$30,000 per planner (~$100,000-$150,000 total)
-**Timeline:** Throughout 2025
+**Timeline:** Q1 2026
 
 **Requirements:**
 - Customer-facing web applications
@@ -361,11 +364,79 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - Development and deployment
 - Ongoing maintenance and support
 
-#### 4. ABRA Acumatica Setup
+#### 3a. Lugna 3D Planner Migration to Cloud
 
-**Business Problem:** ABRA needs to be properly set up on Acumatica with data migration from MYOB EXO.
+**Business Problem:** Lugna 3D planner currently hosted by SixT4 partner. Migration to cloud required for security, scalability, and better control (aligned with web infrastructure security strategy).
 
-**Business Value:** Enable ABRA operations on Acumatica platform, improve data consistency across business units.
+**Business Value:** Improve security posture, enable self-service capabilities, improve performance and reliability, reduce dependency on partner hosting.
+
+**Status:** Committed to proceed
+**Investment:** To be determined (cloud infrastructure costs)
+**Timeline:** Q1 2026
+
+**Requirements:**
+- Migration from SixT4 hosting to cloud infrastructure
+- Security hardening and environment separation
+- Improved performance and reliability
+- Self-service capabilities
+
+**Note:** Aligned with Web Infrastructure & Security Strategy following security incident. See web-infrastructure-security-strategy.md for details.
+
+**Next Steps:**
+- Cloud infrastructure setup (AWS or similar)
+- Migration planning and execution
+- Security hardening
+- Testing and validation
+
+#### 3b. Headless CMS Technology for Planner Websites
+
+**Business Problem:** Existing planner websites need headless CMS technology for improved content management and flexibility.
+
+**Business Value:** Improve content management capabilities, enable better control over planner content, improve flexibility for marketing and content updates.
+
+**Status:** Committed to proceed
+**Investment:** To be determined (CMS platform costs + implementation)
+**Timeline:** Q1 2026
+
+**Requirements:**
+- Headless CMS integration with existing planner websites
+- Content management capabilities
+- Integration with planner applications
+
+**Next Steps:**
+- CMS platform evaluation and selection
+- Integration planning
+- Implementation and testing
+
+#### 4. ABRA IT Infrastructure Migration
+
+**Business Problem:** ABRA currently operates on separate IT infrastructure and needs to be integrated into Prostar Management Office365 tenancy.
+
+**Business Value:** Consolidate IT infrastructure, improve collaboration, standardise systems across business units, enable Teams Calling for Office.
+
+**Status:** Committed to proceed
+**Investment:** To be determined (hardware upgrades + internal resources + external support as required)
+**Timeline:** Q1 2026
+
+**Requirements:**
+- Migrate ABRA IT infrastructure to Prostar Management Office365 tenancy
+- Upgrade ABRA hardware (computers, network equipment)
+- Transition to Teams Calling for Office
+- Integration with Prostar Management Office environment
+- Network infrastructure updates (patch cables, Wi-Fi)
+
+**Next Steps:**
+- Project planning and scope definition
+- Hardware assessment and upgrade planning
+- Office365 migration planning
+- Teams Calling configuration
+- Implementation and testing
+
+#### 5. ABRA Migration from MYOB EXO to Acumatica
+
+**Business Problem:** ABRA currently uses MYOB EXO and needs to migrate to Acumatica for consistency across business units.
+
+**Business Value:** Enable ABRA operations on Acumatica platform, improve data consistency across business units, standardise ERP platform.
 
 **Status:** Committed to proceed
 **Investment:** To be determined (internal resources + external support as required)
@@ -376,7 +447,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - Data migration from MYOB EXO to Acumatica
 - Product, BOM (materials + workstations + routes) creation
 - Integration with Office 365 to Prostar Management Office environment
-- Teams calling setup
+- Testing and validation
 
 **Next Steps:**
 - Project planning and scope definition
@@ -384,7 +455,55 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - Data migration planning
 - Implementation and testing
 
-#### 5. Missing Invoice Project (NZ Focus)
+#### 6. Prostar Joinery Office Move to Truganina
+
+**Business Problem:** Prostar Joinery needs to move to new office and manufacturing facility in Truganina, replacing 3PL operations in Melbourne (EFM) and WA (ALS).
+
+**Business Value:** Consolidate operations, eliminate 3PL dependencies in Melbourne and WA, improve operational control and efficiency.
+
+**Status:** Committed to proceed
+**Investment:** To be determined (IT infrastructure setup + internal resources)
+**Timeline:** Q1 2026
+
+**Requirements:**
+- IT infrastructure setup for new Truganina office
+- Network infrastructure (Internet, LAN, Wi-Fi)
+- CCTV installation
+- Equipment move from current office to new location
+- Decommissioning of old office IT infrastructure
+- Integration with existing systems
+
+**Next Steps:**
+- IT infrastructure planning for new location
+- Network design and implementation
+- CCTV system installation
+- Equipment migration planning
+- Implementation and testing
+
+#### 7. ABRA Office Relocation to Truganina
+
+**Business Problem:** ABRA needs to relocate to new office location in Truganina, co-located with Prostar Joinery.
+
+**Business Value:** Co-location benefits, shared infrastructure, improved collaboration between business units.
+
+**Status:** Committed to proceed
+**Investment:** To be determined (IT infrastructure setup + internal resources)
+**Timeline:** Q1 2026
+
+**Requirements:**
+- IT infrastructure setup for ABRA in Truganina office
+- Network infrastructure (Internet, LAN, Wi-Fi)
+- Integration with Prostar Joinery IT infrastructure
+- Equipment move and setup
+- Integration with existing systems
+
+**Next Steps:**
+- IT infrastructure planning for ABRA in Truganina
+- Network integration with Prostar Joinery
+- Equipment migration planning
+- Implementation and testing
+
+#### 9. Missing Invoice Project (NZ Focus)
 
 **Business Problem:** Late invoice processing fees of ~$17,000/year (888 NZ invoices), primarily due to EDI integration failures with NZ 3PL. Issues include RTA parent/child relationships, duplicate line items, and EDI errors requiring manual invoice creation.
 
@@ -415,7 +534,35 @@ Before proceeding with major strategic initiatives, foundational assessment work
 
 **These initiatives require business case development and executive approval before proceeding.**
 
-#### 1. Data Warehouse & Analytics Platform (Full Implementation)
+#### 1. WordPress Websites Migration to Hosted Solution
+
+**Business Problem:** WordPress websites currently hosted by partner (SixT4) with limited self-service capabilities. Migration to managed hosting would provide marketing team with more control, better backups, restores, uptime, performance, and potentially more cost-effective solution.
+
+**Business Value:** 
+- Improved control for marketing team (backups, restores, staging environments)
+- Better uptime and performance
+- Potentially more cost-effective solution
+- Self-service capabilities
+
+**Status:** Lower priority, requires approval
+**Investment:** To be determined through business case (managed hosting platform costs)
+**Timeline:** Q2 2026 (target)
+
+**Requirements:**
+- Migration from SixT4 hosting to managed WordPress hosting platform
+- Self-service capabilities (backups, restores, staging)
+- Improved performance and uptime
+- Better control for marketing team
+
+**Note:** Aligned with Web Infrastructure & Security Strategy. Not high priority, but provides operational benefits.
+
+**Next Steps:**
+- Business case development
+- Managed hosting platform evaluation
+- Executive approval (if approved)
+- Migration planning and execution
+
+#### 2. Data Warehouse & Analytics Platform (Full Implementation)
 
 **Business Problem:** Limited data visibility and reporting capabilities. Manual reporting processes. Lack of real-time operational insights for decision-making.
 
@@ -452,7 +599,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - Executive approval and resource allocation (if approved)
 - Full implementation
 
-#### 2. Integration Architecture Strategy
+#### 3. Integration Architecture Strategy
 
 **Business Problem:** Point-to-point integrations with limited standardisation. Integration complexity growing as we add systems.
 
@@ -676,9 +823,15 @@ Before proceeding with major strategic initiatives, foundational assessment work
 - Missing Invoice Project: Eliminate ~$17,000/year in late invoice penalties
 - Production Scheduler: Successful integration with Acumatica, improved scheduling efficiency
 - WMS: Successful integration with Acumatica, improved warehouse operations
-- Planners: 5 planners deployed and operational in 2025
+- Planners: 5 planners deployed and operational in Q1 2026
+- Lugna 3D Planner Migration: Successfully migrated to cloud infrastructure
+- Headless CMS: Integrated with planner websites
+- ABRA IT Migration: Successfully migrated to Prostar Management Office365
+- ABRA Acumatica Migration: Successfully migrated from MYOB EXO to Acumatica
+- Office Moves: Prostar Joinery and ABRA offices successfully relocated to Truganina
 
 **Initiatives Requiring Approval:**
+- WordPress Websites Migration: (Subject to business case approval, Q2 2026 target)
 - Data Warehouse: (To be defined based on MVP learnings)
 
 **Aspirational Initiatives:**
@@ -730,7 +883,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 1. **Executive Approval:** Present IT strategy to executive leadership for approval
 2. **Phase 0 Planning:** Plan and initiate Phase 0 assessment work
 3. **Governance Establishment:** Form IT Strategy Governance Committee and schedule first meeting
-4. **Committed Initiatives:** Progress committed initiatives (scheduler, WMS, planners, ABRA, Missing Invoice)
+4. **Committed Initiatives:** Progress committed initiatives (scheduler, WMS, planners, Lugna 3D planner migration, headless CMS, ABRA IT migration, ABRA Acumatica migration, office moves, Missing Invoice)
 
 ### Short-Term Actions (Next 60-90 Days)
 
@@ -750,7 +903,7 @@ Before proceeding with major strategic initiatives, foundational assessment work
 
 **Year 1:**
 - Phase 0 assessment work completed
-- Committed initiatives progressing (scheduler, WMS, planners, ABRA, Missing Invoice)
+- Committed initiatives progressing (scheduler, WMS, planners, Lugna 3D planner migration, headless CMS, ABRA IT migration, ABRA Acumatica migration, Prostar Joinery office move, ABRA office relocation, Missing Invoice)
 - Ongoing Acumatica support continuing effectively
 - Data warehouse MVP demonstrated (if successful)
 - Governance framework operational
